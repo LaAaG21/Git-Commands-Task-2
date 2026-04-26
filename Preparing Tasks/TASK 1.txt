@@ -1,0 +1,197 @@
+TASK 1:
+
+START
+	BEGIN
+		SET NAME TO ''
+		SET AGE TO ''
+
+		DISPLAY 'Enter your name'
+		READ NAME
+
+		DISPLAY 'Enter your age'
+		READ AGE
+
+		DISPLAY 'Welcome to Codeline ' + NAME
+
+		IF AGE GREATER THAN OR EQUALS TO 18 
+		THEN DISPLAY 'Allowed'
+		ELSE DISPLAY 'Not Allowed'
+		END IF
+
+	END
+STOP
+
+
+TASK 2:
+
+START
+	BEGIN
+		SET STUDENT_NAME TO ''
+		SET SCORE TO ''
+
+		DISPLAY 'Enter your name'
+		READ STUDENT_NAME
+
+		DISPLAY 'Enter your score'
+		READ SCORE
+
+		DISPLAY 'Welcome to Codeline ' + STUDENT_NAME
+
+		IF SCORE GREATER THAN OR EQUALS TO 50 
+		THEN DISPLAY 'Pass'
+		ELSE DISPLAY 'Fail'
+		END IF
+
+	END
+STOP
+
+
+TASK 3:
+
+START
+	BEGIN
+		REPEAT NUM FROM 1 TO 5		#REPEAT FROM NUM = 1 TO 5
+			DISPLAY NUM
+		END REPEAT
+	END
+STOP
+
+
+TASK 4:
+
+START
+	BEGIN
+		SET COUNT TO 5
+		REPEAT WHILE COUNT GREATER THAN 0
+			DISPLAY COUNT
+			COUNT = COUNT - 1
+		END REPEAT
+	END
+STOP
+
+
+TASK 5:
+
+START
+	BEGIN
+		SET AGE
+		SET ID
+		
+		DISPLAY 'Enter your age'
+		READ AGE
+
+		DISPLAY 'Do you have id card?'
+		READ ID
+
+		IF (AGE GRATER THAN OR EQUALS TO 18) AND (ID IS TRUE)
+		THEN DISPLAY 'Access Granted'
+		ELSE DISPLAY 'Access Denied'
+		END IF
+	END
+STOP
+
+
+TASK 6:
+
+START
+	BEGIN
+		SET ROLE
+		DISPLAY 'Enter your role'
+		READ ROLE
+		IF ROLE EQUALS TO 'Admin' OR 'Manager'
+		THEN DISPLAY 'Access Allowed'
+		ELSE DISPLAY 'Access Denied'
+		END IF
+	END
+STOP
+
+
+TASK 7:
+
+START
+	BEGIN
+		SET IS_ACTIVE
+		
+		DISPLAY 'Is your Account active?'
+		READ IS_ACTIVE
+
+		IF IS_ACTIVE NOT TRUE
+		THEN DISPLAY 'Account Inactive'
+		ELSE DISPLAY 'Account Active'
+		END ELSE
+	END
+STOP
+
+
+TASK 8:
+
+START
+	BEGIN
+		SET AGE
+		SET ROLE
+
+		DISPLAY 'Enter your age'
+		READ AGE
+
+		DISPLAY 'Enter your role'
+		READ ROLE
+
+		IF (AGE GREATER THAN OR EQUALS TO 18) AND (ROLE EQUALS TO 'Admin' OR 'Manager')
+		THEN DISPLAY 'Access Granted'
+		ELSE DISPLAY 'Access Denied'
+		END IF
+	END
+STOP
+
+
+TASK 9:
+
+START
+	BEGIN
+		SET USERNAME
+		SET PASSWORD
+
+		DISPLAY 'Enter your username'
+		READ USERNAME
+
+		DISPLAY 'Enter your password'
+		READ PASSWORD
+
+		IF (USERNAME EQUALS TO 'ADMIN') AND (PASSWORD EQUALSE TO '1234')
+		THEN DISPLAY 'Login Successful'
+		ELSE DISPLAY 'Invalid Username or Password'
+		END IF
+	END
+STOP
+
+
+TASK 10:
+
+START
+	BEGIN
+		REPEAT FROM NUM = 1 TO 10
+			IF NUM % 2 EQUALS TO 0
+			THEN DISPLAY NUM
+		END REPEAT
+	END
+STOP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

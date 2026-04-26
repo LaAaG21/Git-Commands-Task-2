@@ -1,0 +1,57 @@
+START
+	BEGIN
+		DISPLAY 'ENTER YOUR NAME'
+		READ NAME
+		DISPLAY 'ENTER YOUR AGE'
+		READ AGE
+		IF AGE GREATER THAN 17
+		THEN DISPLAY NAME + ', YOU ARE AN ADULT'
+		ELSE DISPLAY NAME + ', YOU ARE KID'
+	END
+STOP
+
+
+
+START
+	BEGIN
+	END
+STOP
+
+
+
+
+
+
+A) 2802 % 10 = 2
+- 2802 / 10 = 280.2
+- 280 * 10 = 2800
+- 2802 - 2800 = 2
+
+B) 280 % 10 = 0
+C) 28 % 10 = 8
+D) 2 % 10 = 2
+
+
+
+START
+	BEGIN
+		READ VAR
+
+		RESULT = 0
+		
+		WHILE VAR > 1
+			Y = VAR % 10         		# 2802 % 10 = 2
+			RESULT = (RESULT * 10) + Y      # A = 2
+			VAR = VAR / 10       		# VAR = 2802 - 2
+			
+		END WHILE
+	END
+STOP
+
+
+
+
+
+
+
+

@@ -1,0 +1,2320 @@
+Task 1:
+
+C:\Users\Codeline>cd C:\
+
+C:\>mkdir DevWorkspace
+
+C:\>cd DevWorkspace
+
+C:\DevWorkspace>type nul>
+The syntax of the command is incorrect.
+
+C:\DevWorkspace>type nul
+
+C:\DevWorkspace>type nul > test.text
+
+C:\DevWorkspace>echo text > hello.txt "Hello World"
+
+C:\DevWorkspace>mkdir Project
+
+C:\DevWorkspace>mkdir Backup
+
+C:\DevWorkspace>ren hello.txt greeting.txt
+
+C:\DevWorkspace>copy greeting.txt copy.txt
+        1 file(s) copied.
+
+C:\DevWorkspace>move copy.txt C:\Backup\
+The system cannot find the path specified.
+        0 file(s) moved.
+
+C:\DevWorkspace>move copy.txt C:\DevWorkspace\Backup\
+        1 file(s) moved.
+
+C:\DevWorkspace>del test.text
+
+C:\DevWorkspace>rmdir /s Project
+Project, Are you sure (Y/N)? y
+
+C:\DevWorkspace>mkdir OldFiles
+
+C:\DevWorkspace>mkdir TempFolder
+
+C:\DevWorkspace>move OldFiles C:\
+        1 dir(s) moved.
+
+C:\DevWorkspace>cd..
+
+C:\>del OldFiles
+C:\OldFiles\*, Are you sure (Y/N)? y
+
+C:\>cd DevWorkspace
+
+C:\DevWorkspace>del TempFolder
+C:\DevWorkspace\TempFolder\*, Are you sure (Y/N)? y
+
+C:\DevWorkspace>cd..
+
+C:\>rmdir /s /q DevWorkspace
+
+
+Task 2:
+
+C:\>mkdir Reports
+
+C:\>cd Reports
+
+C:\Reports>echo Daily Summary Report > summary.txt
+
+C:\Reports>mkdir Archive
+
+C:\Reports>mkdir Backups
+
+C:\Reports>copy summary.txt Archive\
+        1 file(s) copied.
+
+C:\Reports>copy summary.txt Backups\
+        1 file(s) copied.
+
+C:\Reports>ren Archive\summary.txt summary_old.txt
+
+C:\Reports>type nul > data.csv
+
+C:\Reports>move data.csv Backups\
+        1 file(s) moved.
+
+C:\Reports>del summary.txt
+
+C:\Reports>cd C:\
+
+C:\>rmdir /s /q Reports\Archive
+
+C:\>rmdir /s /q Reports
+
+C:\>
+
+
+Task 3:
+
+C:\>mkdir MyWebsite
+
+C:\>cd MyWebsite
+
+C:\MyWebsite>mkdir css
+
+C:\MyWebsite>mkdir js
+
+C:\MyWebsite>mkdir images
+
+C:\MyWebsite>cd css
+
+C:\MyWebsite\css>type nul > style.css
+
+C:\MyWebsite\css>cd ..\js
+
+C:\MyWebsite\js>echo // JavaScript code here > script.js
+
+C:\MyWebsite\js>cd ..
+
+C:\MyWebsite>echo ^Welcome^ > index.html
+
+C:\MyWebsite>copy index.html about.html
+        1 file(s) copied.
+
+C:\MyWebsite>mkdir Backup
+
+C:\MyWebsite>move about.html Backup\
+        1 file(s) moved.
+
+C:\MyWebsite>cd C:\
+
+C:\>rmdir /s /q MyWebsite
+
+C:\>
+
+Task 4:
+
+C:\>mkdir ClassRecords
+
+C:\>cd ClassRecords
+
+C:\ClassRecords>type nul > attendance.txt
+
+C:\ClassRecords>echo Student Grades - Semester 1 > grades.txt
+
+C:\ClassRecords>mkdir Completed
+
+C:\ClassRecords>mkdir Pending
+
+C:\ClassRecords>copy grades.txt Completed\
+        1 file(s) copied.
+
+C:\ClassRecords>copy grades.txt Pending\
+        1 file(s) copied.
+
+C:\ClassRecords>ren Completed\grades.txt grades_final.txt
+
+C:\ClassRecords>del attendance.txt
+
+C:\ClassRecords>mkdir OldRecords
+
+C:\ClassRecords>rmdir OldRecords
+
+C:\ClassRecords>cd C:\
+
+C:\>rmdir /s /q ClassRecords\Pending
+
+C:\>rmdir /s /q ClassRecords
+
+C:\>
+
+
+Task 5:
+
+C:\>mkdir Release_v1.0
+
+C:\>cd Release_v1.0
+
+C:\Release_v1.0>echo Release Notes v1.0 > readme.txt
+
+C:\Release_v1.0>type nul > setup.exe
+
+C:\Release_v1.0>mkdir Documentation
+
+C:\Release_v1.0>mkdir Temp
+
+C:\Release_v1.0>copy readme.txt Documentation\
+        1 file(s) copied.
+
+C:\Release_v1.0>ren Documentation\readme.txt manual.txt
+
+C:\Release_v1.0>move setup.exe Temp\
+        1 file(s) moved.
+
+C:\Release_v1.0>mkdir OldBuilds
+
+C:\Release_v1.0>rmdir OldBuilds
+
+C:\Release_v1.0>cd C:\
+
+C:\>rmdir /s /q Release_v1.0\Temp
+
+C:\>rmdir /s /q Release_v1.0
+
+C:\>
+
+Task 6:
+
+C:\>mkdir PhotoAlbum
+
+C:\>cd PhotoAlbum
+
+C:\PhotoAlbum>mkdir Vacation
+
+C:\PhotoAlbum>mkdir Family
+
+C:\PhotoAlbum>mkdir Backup
+
+C:\PhotoAlbum>cd Vacation
+
+C:\PhotoAlbum\Vacation>type nul > beach.jpg
+
+C:\PhotoAlbum\Vacation>cd ..\Family
+
+C:\PhotoAlbum\Family>echo Family Reunion 2024 > reunion.txt
+
+C:\PhotoAlbum\Family>cd ..
+
+C:\PhotoAlbum>copy Family\reunion.txt Backup\
+        1 file(s) copied.
+
+C:\PhotoAlbum>ren Backup\reunion.txt reunion_backup.txt
+
+C:\PhotoAlbum>del Vacation\beach.jpg
+
+C:\PhotoAlbum>mkdir TempEdits
+
+C:\PhotoAlbum>rmdir TempEdits
+
+C:\PhotoAlbum>cd C:\
+
+C:\>rmdir /s /q PhotoAlbum\Vacation
+
+C:\>rmdir /s /q PhotoAlbum
+
+C:\>
+
+
+Task 7:
+
+C:\>mkdir Invoices
+
+C:\>cd Invoices
+
+C:\Invoices>echo INVOICE TEMPLATE > template.txt
+
+C:\Invoices>mkdir Pending
+
+C:\Invoices>mkdir Processed
+
+C:\Invoices>mkdir Archive
+
+C:\Invoices>copy template.txt Pending\
+        1 file(s) copied.
+
+C:\Invoices>copy template.txt Processed\
+        1 file(s) copied.
+
+C:\Invoices>copy template.txt Archive\
+        1 file(s) copied.
+
+C:\Invoices>ren Pending\template.txt invoice_001.txt
+
+C:\Invoices>ren Processed\template.txt invoice_001_done.txt
+
+C:\Invoices>move Processed\invoice_001_done.txt Archive\
+        1 file(s) moved.
+
+C:\Invoices>del template.txt
+
+C:\Invoices>mkdir TempHolding
+
+C:\Invoices>rmdir TempHolding
+
+C:\Invoices>cd C:\
+
+C:\>rmdir /s /q Invoices\Pending
+
+C:\>rmdir /s /q Invoices
+
+C:\>
+
+
+Task 8:
+
+C:\>mkdir GameSaves
+
+C:\>cd GameSaves
+
+C:\GameSaves>type nul > profile.dat
+
+C:\GameSaves>echo resolution=1920x1080 > settings.ini
+
+C:\GameSaves>mkdir Slot1
+
+C:\GameSaves>mkdir Slot2
+
+C:\GameSaves>mkdir CloudBackup
+
+C:\GameSaves>copy profile.dat Slot1\
+        1 file(s) copied.
+
+C:\GameSaves>copy profile.dat Slot2\
+        1 file(s) copied.
+
+C:\GameSaves>copy profile.dat CloudBackup\
+        1 file(s) copied.
+
+C:\GameSaves>copy settings.ini Slot1\
+        1 file(s) copied.
+
+C:\GameSaves>copy settings.ini Slot2\
+        1 file(s) copied.
+
+C:\GameSaves>copy settings.ini CloudBackup\
+        1 file(s) copied.
+
+C:\GameSaves>cd Slot1
+
+C:\GameSaves\Slot1>ren profile.dat savegame.sav
+
+C:\GameSaves\Slot1>cd ..
+
+C:\GameSaves>del profile.dat
+
+C:\GameSaves>mkdir Corrupted
+
+C:\GameSaves>rmdir Corrupted
+
+C:\GameSaves>cd C:\
+
+C:\>rmdir /s /q GameSaves\Slot2
+
+C:\>rmdir /s /q GameSaves
+
+C:\>
+
+
+Task 9:
+
+C:\>mkdir MusicLibrary
+
+C:\>cd MusicLibrary
+
+C:\MusicLibrary>echo #EXTM3U > playlist.m3u
+
+C:\MusicLibrary>mkdir Rock
+
+C:\MusicLibrary>mkdir Jazz
+
+C:\MusicLibrary>mkdir Playlists
+
+C:\MusicLibrary>type nul > Rock\song1.mp3
+
+C:\MusicLibrary>type nul > Jazz\song2.mp3
+
+C:\MusicLibrary>copy playlist.m3u Playlists\
+        1 file(s) copied.
+
+C:\MusicLibrary>ren Playlists\playlist.m3u favorites.m3u
+
+C:\MusicLibrary>del playlist.m3u
+
+C:\MusicLibrary>mkdir TempDownloads
+
+C:\MusicLibrary>rmdir TempDownloads
+
+C:\MusicLibrary>cd C:\
+
+C:\>rmdir /s /q MusicLibrary\Jazz
+
+C:\>rmdir /s /q MusicLibrary
+
+C:\>
+
+
+Task 10:
+
+C:\>mkdir ProjectDocs
+
+C:\>cd ProjectDocs
+
+C:\ProjectDocs>echo Project Requirements v1 > requirements.txt
+
+C:\ProjectDocs>echo System Design Document > design.txt
+
+C:\ProjectDocs>mkdir Drafts
+
+C:\ProjectDocs>mkdir Final
+
+C:\ProjectDocs>mkdir Obsolete
+
+C:\ProjectDocs>copy requirements.txt Drafts\
+        1 file(s) copied.
+
+C:\ProjectDocs>copy design.txt Drafts\
+        1 file(s) copied.
+
+C:\ProjectDocs>move Drafts\requirements.txt Final\
+        1 file(s) moved.
+
+C:\ProjectDocs>move Drafts\design.txt Final\
+        1 file(s) moved.
+
+C:\ProjectDocs>ren Final\requirements.txt requirements_final.txt
+
+C:\ProjectDocs>ren Final\design.txt design_final.txt
+
+C:\ProjectDocs>del requirements.txt
+
+C:\ProjectDocs>del design.txt
+
+C:\ProjectDocs>mkdir TempReview
+
+C:\ProjectDocs>rmdir TempReview
+
+C:\ProjectDocs>cd C:\
+
+C:\>rmdir Obsolete
+The system cannot find the file specified.
+
+C:\>rmdir /s /q ProjectDocs
+
+C:\>
+
+
+Task 11:
+
+C:\>mkdir MasterProject
+
+C:\>cd MasterProject
+
+C:\MasterProject>mkdir Source
+
+C:\MasterProject>mkdir Build
+
+C:\MasterProject>mkdir Tests
+
+C:\MasterProject>echo Main Application Code > Source\main.txt
+
+C:\MasterProject>type nul > Source\config.xml
+
+C:\MasterProject>echo All Tests Passed > Tests\test_results.txt
+
+C:\MasterProject>mkdir Build\Output
+
+C:\MasterProject>mkdir Build\Temp
+
+C:\MasterProject>copy Source\main.txt Build\Output\
+        1 file(s) copied.
+
+C:\MasterProject>copy Source\config.xml Build\Temp\
+        1 file(s) copied.
+
+C:\MasterProject>ren Build\Output\main.txt app.exe
+
+C:\MasterProject>del Source\config.xml
+
+C:\MasterProject>cd Build
+
+C:\MasterProject\Build>rmdir /s /q Temp
+
+C:\MasterProject\Build>cd ..
+
+C:\MasterProject>mkdir Logs
+
+C:\MasterProject>rmdir Logs
+
+C:\MasterProject>cd C:\
+
+C:\>rmdir /s /q MasterProject\Tests
+
+C:\>rmdir /s /q MasterProject
+
+C:\>
+
+
+Task 12:
+
+C:\>mkdir ProductCatalog
+
+C:\>cd ProductCatalog
+
+C:\ProductCatalog>mkdir Electronics
+
+C:\ProductCatalog>mkdir Clothing
+
+C:\ProductCatalog>mkdir Books
+
+C:\ProductCatalog>mkdir BackupCatalog
+
+C:\ProductCatalog>echo SKU: LAP001 - Price: $999 > Electronics\laptop.txt
+
+C:\ProductCatalog>type nul > Electronics\phone.jpg
+
+C:\ProductCatalog>echo SKU: TSH001 - Price: $25 > Clothing\tshirt.txt
+
+C:\ProductCatalog>echo SKU: BOK001 - Price: $15 > Books\novel.txt
+
+C:\ProductCatalog>copy Electronics\laptop.txt BackupCatalog\
+        1 file(s) copied.
+
+C:\ProductCatalog>move Electronics\phone.jpg BackupCatalog\
+        1 file(s) moved.
+
+C:\ProductCatalog>ren BackupCatalog\laptop.txt laptop_backup.txt
+
+C:\ProductCatalog>mkdir TempImport
+
+C:\ProductCatalog>rmdir TempImport
+
+C:\ProductCatalog>cd C:\
+
+C:\>rmdir /s /q ProductCatalog\Books
+
+C:\>rmdir /s /q ProductCatalog
+
+C:\>
+
+Task 13:
+
+C:\>mkdir HR_Onboarding
+
+C:\>cd HR_Onboarding
+
+C:\HR_Onboarding>mkdir NewHires
+
+C:\HR_Onboarding>mkdir Completed
+
+C:\HR_Onboarding>mkdir Templates
+
+C:\HR_Onboarding>mkdir Archive
+
+C:\HR_Onboarding>echo Welcome to the company! > Templates\welcome_letter.txt
+
+C:\HR_Onboarding>type nul > Templates\tax_form.pdf
+
+C:\HR_Onboarding>echo I acknowledge receipt of policies. > Templates\policy_ack.txt
+
+C:\HR_Onboarding>copy Templates\welcome_letter.txt NewHires\
+        1 file(s) copied.
+
+C:\HR_Onboarding>copy Templates\tax_form.pdf NewHires\
+        1 file(s) copied.
+
+C:\HR_Onboarding>copy Templates\policy_ack.txt NewHires\
+        1 file(s) copied.
+
+C:\HR_Onboarding>ren NewHires\welcome_letter.txt pending_welcome_letter.txt
+
+C:\HR_Onboarding>ren NewHires\tax_form.pdf pending_tax_form.pdf
+
+C:\HR_Onboarding>ren NewHires\policy_ack.txt pending_policy_ack.txt
+
+C:\HR_Onboarding>move NewHires\pending_welcome_letter.txt Completed\
+        1 file(s) moved.
+
+C:\HR_Onboarding>del Templates\tax_form.pdf
+
+C:\HR_Onboarding>mkdir TempProcessing
+
+C:\HR_Onboarding>rmdir TempProcessing
+
+C:\HR_Onboarding>copy Templates\policy_ack.txt Archive\
+        1 file(s) copied.
+
+C:\HR_Onboarding>copy Templates\welcome_letter.txt Archive\
+        1 file(s) copied.
+
+C:\HR_Onboarding>cd C:\
+
+C:\>rmdir /s /q HR_Onboarding\Templates
+
+C:\>rmdir /s /q HR_Onboarding
+
+C:\>
+
+Task 14:
+
+C:\>mkdir VideoProject
+
+C:\>cd VideoProject
+
+C:\VideoProject>mkdir RawFootage
+
+C:\VideoProject>mkdir Audio
+
+C:\VideoProject>mkdir Graphics
+
+C:\VideoProject>mkdir Exports
+
+C:\VideoProject>mkdir ProjectBackup
+
+C:\VideoProject>type nul > RawFootage\clip001.mp4
+
+C:\VideoProject>type nul > RawFootage\clip002.mp4
+
+C:\VideoProject>echo Music Track > Audio\background.mp3
+
+C:\VideoProject>type nul > Graphics\logo.png
+
+C:\VideoProject>echo Motion Graphics Template > Graphics\lowerthird.txt
+
+C:\VideoProject>copy RawFootage\clip001.mp4 ProjectBackup\
+        1 file(s) copied.
+
+C:\VideoProject>copy RawFootage\clip002.mp4 ProjectBackup\
+        1 file(s) copied.
+
+C:\VideoProject>copy Audio\background.mp3 ProjectBackup\
+        1 file(s) copied.
+
+C:\VideoProject>ren ProjectBackup\clip001.mp4 clip001_proxy.mp4
+
+C:\VideoProject>del RawFootage\clip002.mp4
+
+C:\VideoProject>mkdir RenderCache
+
+C:\VideoProject>rmdir RenderCache
+
+C:\VideoProject>cd C:\
+
+C:\>rmdir /s /q VideoProject\Graphics
+
+C:\>rmdir /s /q VideoProject
+
+C:\>
+
+Task 15:
+
+C:\>mkdir TicketSystem
+
+C:\>cd TicketSystem
+
+C:\TicketSystem>mkdir Open
+
+C:\TicketSystem>mkdir InProgress
+
+C:\TicketSystem>mkdir Resolved
+
+C:\TicketSystem>mkdir Closed
+
+C:\TicketSystem>mkdir TicketBackup
+
+C:\TicketSystem>echo Issue: Cannot login > Open\ticket_001.txt
+
+C:\TicketSystem>echo Issue: Password reset needed > Open\ticket_002.txt
+
+C:\TicketSystem>type nul > Open\ticket_003.txt
+
+C:\TicketSystem>copy Open\ticket_001.txt InProgress\
+        1 file(s) copied.
+
+C:\TicketSystem>move Open\ticket_002.txt Resolved\
+        1 file(s) moved.
+
+C:\TicketSystem>ren InProgress\ticket_001.txt ticket_001_assigned.txt
+
+C:\TicketSystem>copy Resolved\ticket_002.txt TicketBackup\
+        1 file(s) copied.
+
+C:\TicketSystem>del Open\ticket_003.txt
+
+C:\TicketSystem>mkdir TempAttachments
+
+C:\TicketSystem>rmdir TempAttachments
+
+C:\TicketSystem>cd C:\
+
+C:\>rmdir Closed
+The system cannot find the file specified.
+
+C:\>rmdir /s /q TicketSystem\Open
+
+C:\>rmdir /s /q TicketSystem
+
+C:\>
+
+Task 16:
+
+C:\>mkdir RecipeBox
+
+C:\>cd RecipeBox
+
+C:\RecipeBox>mkdir Italian
+
+C:\RecipeBox>mkdir Mexican
+
+C:\RecipeBox>mkdir Asian
+
+C:\RecipeBox>mkdir Desserts
+
+C:\RecipeBox>mkdir RecipeBackups
+
+C:\RecipeBox>echo Spaghetti Carbonara Recipe > Italian\pasta.txt
+
+C:\RecipeBox>type nul > Italian\pizza.txt
+
+C:\RecipeBox>echo Street Tacos Recipe > Mexican\tacos.txt
+
+C:\RecipeBox>echo Vegetable Stir Fry > Asian\stirfry.txt
+
+C:\RecipeBox>echo Fudge Brownies > Desserts\brownies.txt
+
+C:\RecipeBox>copy Italian\pasta.txt RecipeBackups\
+        1 file(s) copied.
+
+C:\RecipeBox>copy Italian\pizza.txt RecipeBackups\
+        1 file(s) copied.
+
+C:\RecipeBox>copy Mexican\tacos.txt RecipeBackups\
+        1 file(s) copied.
+
+C:\RecipeBox>ren RecipeBackups\pasta.txt pasta_classic.txt
+
+C:\RecipeBox>move Italian\pizza.txt RecipeBackups\
+Overwrite C:\RecipeBox\RecipeBackups\pizza.txt? (Yes/No/All):
+Overwrite C:\RecipeBox\RecipeBackups\pizza.txt? (Yes/No/All): y
+        1 file(s) moved.
+
+C:\RecipeBox>del Desserts\brownies.txt
+
+C:\RecipeBox>mkdir TempPhotos
+
+C:\RecipeBox>rmdir TempPhotos
+
+C:\RecipeBox>cd C:\
+
+C:\>rmdir /s /q RecipeBox\Asian
+
+C:\>rmdir RecipeBox\Desserts
+
+C:\>rmdir /s /q RecipeBox
+
+C:\>
+
+Task 17:
+
+C:\>mkdir FitnessTracker
+
+C:\>cd FitnessTracker
+
+C:\FitnessTracker>mkdir Workouts
+
+C:\FitnessTracker>mkdir Nutrition
+
+C:\FitnessTracker>mkdir Progress
+
+C:\FitnessTracker>mkdir Photos
+
+C:\FitnessTracker>mkdir DataBackup
+
+C:\FitnessTracker>echo Chest and Triceps > Workouts\monday.txt
+
+C:\FitnessTracker>echo Back and Biceps > Workouts\wednesday.txt
+
+C:\FitnessTracker>type nul > Workouts\friday.txt
+
+C:\FitnessTracker>echo 2000 calorie plan > Nutrition\mealplan.txt
+
+C:\FitnessTracker>echo Starting weight: 180 lbs > Progress\weightlog.txt
+
+C:\FitnessTracker>type nul > Photos\before.jpg
+
+C:\FitnessTracker>type nul > Photos\after.jpg
+
+C:\FitnessTracker>copy Workouts\monday.txt DataBackup\
+        1 file(s) copied.
+
+C:\FitnessTracker>copy Workouts\wednesday.txt DataBackup\
+        1 file(s) copied.
+
+C:\FitnessTracker>copy Workouts\friday.txt DataBackup\
+        1 file(s) copied.
+
+C:\FitnessTracker>copy Nutrition\mealplan.txt DataBackup\
+        1 file(s) copied.
+
+C:\FitnessTracker>ren DataBackup\monday.txt monday_week1.txt
+
+C:\FitnessTracker>move Workouts\friday.txt DataBackup\
+Overwrite C:\FitnessTracker\DataBackup\friday.txt? (Yes/No/All): y
+        1 file(s) moved.
+
+C:\FitnessTracker>del Photos\after.jpg
+
+C:\FitnessTracker>mkdir TempExports
+
+C:\FitnessTracker>rmdir TempExports
+
+C:\FitnessTracker>cd C:\
+
+C:\>rmdir /s /q FitnessTracker\Progress
+
+C:\>rmdir /s /q FitnessTracker
+
+C:\>
+
+Task 18:
+
+C:\>mkdir Podcast
+
+C:\>cd Podcast
+
+C:\Podcast>mkdir RawAudio
+
+C:\Podcast>mkdir EditedAudio
+
+C:\Podcast>mkdir ShowNotes
+
+C:\Podcast>mkdir Published
+
+C:\Podcast>mkdir EpisodeBackup
+
+C:\Podcast>type nul > RawAudio\ep001_raw.wav
+
+C:\Podcast>type nul > RawAudio\ep002_raw.wav
+
+C:\Podcast>type nul > EditedAudio\ep001_edited.mp3
+
+C:\Podcast>echo Guest: John Doe - Topic: Technology > ShowNotes\ep001_notes.txt
+
+C:\Podcast>echo Guest: Jane Smith - Topic: Health > ShowNotes\ep002_notes.txt
+
+C:\Podcast>copy EditedAudio\ep001_edited.mp3 Published\
+        1 file(s) copied.
+
+C:\Podcast>copy ShowNotes\ep001_notes.txt EpisodeBackup\
+        1 file(s) copied.
+
+C:\Podcast>copy ShowNotes\ep002_notes.txt EpisodeBackup\
+        1 file(s) copied.
+
+C:\Podcast>move RawAudio\ep002_raw.wav EpisodeBackup\
+        1 file(s) moved.
+
+C:\Podcast>ren Published\ep001_edited.mp3 ep001_final.mp3
+
+C:\Podcast>del RawAudio\ep001_raw.wav
+
+C:\Podcast>mkdir TempRenders
+
+C:\Podcast>rmdir TempRenders
+
+C:\Podcast>cd C:\
+
+C:\>rmdir /s /q Podcast\RawAudio
+
+C:\>rmdir /s /q Podcast
+
+C:\>
+
+Task 19:
+
+C:\>mkdir Courses
+
+C:\>cd Courses
+
+C:\Courses>mkdir Mathematics
+
+C:\Courses>mkdir Science
+
+C:\Courses>mkdir History
+
+C:\Courses>mkdir English
+
+C:\Courses>mkdir CourseBackup
+
+C:\Courses>echo Algebra 101 Syllabus > Mathematics\syllabus.txt
+
+C:\Courses>type nul > Mathematics\homework1.pdf
+
+C:\Courses>echo Chemistry Lab Experiment > Science\lab_report.txt
+
+C:\Courses>echo World War II Timeline > History\timeline.txt
+
+C:\Courses>echo Literary Analysis > English\essay.txt
+
+C:\Courses>copy Mathematics\syllabus.txt CourseBackup\
+        1 file(s) copied.
+
+C:\Courses>copy Mathematics\homework1.pdf CourseBackup\
+        1 file(s) copied.
+
+C:\Courses>copy Science\lab_report.txt CourseBackup\
+        1 file(s) copied.
+
+C:\Courses>ren CourseBackup\syllabus.txt math_syllabus_backup.txt
+
+C:\Courses>move Mathematics\homework1.pdf CourseBackup\
+Overwrite C:\Courses\CourseBackup\homework1.pdf? (Yes/No/All): y
+        1 file(s) moved.
+
+C:\Courses>del English\essay.txt
+
+C:\Courses>mkdir TempGrading
+
+C:\Courses>rmdir TempGrading
+
+C:\Courses>cd C:\
+
+C:\>rmdir /s /q Courses\History
+
+C:\>rmdir Courses\English
+
+C:\>rmdir /s /q Courses
+
+C:\>
+
+Task 20:
+
+C:\>mkdir HomeInventory
+
+C:\>cd HomeInventory
+
+C:\HomeInventory>mkdir Kitchen
+
+C:\HomeInventory>mkdir LivingRoom
+
+C:\HomeInventory>mkdir Bedroom
+
+C:\HomeInventory>mkdir Garage
+
+C:\HomeInventory>mkdir InventoryBackup
+
+C:\HomeInventory>echo Refrigerator, Oven, Dishwasher > Kitchen\appliances.txt
+
+C:\HomeInventory>type nul > Kitchen\warranty_fridge.pdf
+
+C:\HomeInventory>echo TV, Sound System, Gaming Console > LivingRoom\electronics.txt
+
+C:\HomeInventory>echo Bed, Dresser, Nightstand > Bedroom\furniture.txt
+
+C:\HomeInventory>echo Drill, Saw, Toolbox > Garage\tools.txt
+
+C:\HomeInventory>copy Kitchen\appliances.txt InventoryBackup\
+        1 file(s) copied.
+
+C:\HomeInventory>copy Kitchen\warranty_fridge.pdf InventoryBackup\
+        1 file(s) copied.
+
+C:\HomeInventory>copy LivingRoom\electronics.txt InventoryBackup\
+        1 file(s) copied.
+
+C:\HomeInventory>ren InventoryBackup\appliances.txt kitchen_appliances_backup.txt
+
+C:\HomeInventory>move Kitchen\warranty_fridge.pdf InventoryBackup\
+Overwrite C:\HomeInventory\InventoryBackup\warranty_fridge.pdf? (Yes/No/All): y
+        1 file(s) moved.
+
+C:\HomeInventory>del Garage\tools.txt
+
+C:\HomeInventory>mkdir TempPhotos
+
+C:\HomeInventory>rmdir TempPhotos
+
+C:\HomeInventory>cd C:\
+
+C:\>rmdir HomeInventory\Garage
+
+C:\>rmdir /s /q HomeInventory\Bedroom
+
+C:\>rmdir /s /q HomeInventory
+
+C:\>
+
+Task 21:
+
+C:\>mkdir TestEnvironment
+
+C:\>cd TestEnvironment
+
+C:\TestEnvironment>mkdir TestCases
+
+C:\TestEnvironment>mkdir TestData
+
+C:\TestEnvironment>mkdir BugReports
+
+C:\TestEnvironment>mkdir TestResults
+
+C:\TestEnvironment>mkdir TestBackup
+
+C:\TestEnvironment>echo TC001: Valid Login, TC002: Invalid Password > TestCases\login_tests.txt
+
+C:\TestEnvironment>type nul > TestCases\checkout_tests.txt
+
+C:\TestEnvironment>echo user1,pass1;user2,pass2 > TestData\users.csv
+
+C:\TestEnvironment>echo Login button not responding > BugReports\bug_001.txt
+
+C:\TestEnvironment>echo Checkout total incorrect > BugReports\bug_002.txt
+
+C:\TestEnvironment>echo Passed: 45, Failed: 3 > TestResults\results_sprint1.txt
+
+C:\TestEnvironment>copy TestCases\login_tests.txt TestBackup\
+        1 file(s) copied.
+
+C:\TestEnvironment>copy TestCases\checkout_tests.txt TestBackup\
+        1 file(s) copied.
+
+C:\TestEnvironment>copy BugReports\bug_001.txt TestBackup\
+        1 file(s) copied.
+
+C:\TestEnvironment>copy BugReports\bug_002.txt TestBackup\
+        1 file(s) copied.
+
+C:\TestEnvironment>ren TestBackup\login_tests.txt login_tests_sprint1.txt
+
+C:\TestEnvironment>move TestCases\checkout_tests.txt TestBackup\
+Overwrite C:\TestEnvironment\TestBackup\checkout_tests.txt? (Yes/No/All): y
+        1 file(s) moved.
+
+C:\TestEnvironment>del BugReports\bug_002.txt
+
+C:\TestEnvironment>mkdir TempLogs
+
+C:\TestEnvironment>rmdir TempLogs
+
+C:\TestEnvironment>cd C:\
+
+C:\>rmdir /s /q TestEnvironment\TestData
+
+C:\>rmdir /s /q TestEnvironment\TestResults
+
+C:\>rmdir /s /q TestEnvironment
+
+C:\>
+
+Task 22:
+
+C:\>mkdir ArtPortfolio
+
+C:\>cd ArtPortfolio
+
+C:\ArtPortfolio>mkdir Originals
+
+C:\ArtPortfolio>mkdir WIP
+
+C:\ArtPortfolio>mkdir ClientProofs
+
+C:\ArtPortfolio>mkdir FinalExports
+
+C:\ArtPortfolio>mkdir PortfolioBackup
+
+C:\ArtPortfolio>type nul > Originals\landscape.psd
+
+C:\ArtPortfolio>type nul > Originals\portrait.psd
+
+C:\ArtPortfolio>echo Concept art - Version 2 > WIP\character_design.txt
+
+C:\ArtPortfolio>type nul > WIP\background_sketch.png
+
+C:\ArtPortfolio>type nul > ClientProofs\clientA_preview.jpg
+
+C:\ArtPortfolio>type nul > ClientProofs\clientB_preview.jpg
+
+C:\ArtPortfolio>type nul > FinalExports\portfolio_piece1.png
+
+C:\ArtPortfolio>copy Originals\landscape.psd PortfolioBackup\
+        1 file(s) copied.
+
+C:\ArtPortfolio>copy Originals\portrait.psd PortfolioBackup\
+        1 file(s) copied.
+
+C:\ArtPortfolio>copy WIP\character_design.txt PortfolioBackup\
+        1 file(s) copied.
+
+C:\ArtPortfolio>copy WIP\background_sketch.png PortfolioBackup\
+        1 file(s) copied.
+
+C:\ArtPortfolio>ren PortfolioBackup\landscape.psd landscape_v1.psd
+
+C:\ArtPortfolio>move ClientProofs\clientA_preview.jpg FinalExports\
+        1 file(s) moved.
+
+C:\ArtPortfolio>del WIP\background_sketch.png
+
+C:\ArtPortfolio>mkdir TempRenders
+
+C:\ArtPortfolio>rmdir TempRenders
+
+C:\ArtPortfolio>cd C:\
+
+C:\>rmdir /s /q ArtPortfolio\ClientProofs
+
+C:\>rmdir /s /q ArtPortfolio
+
+C:\>
+
+Task 23:
+
+C:\>mkdir ArtPortfolio
+
+C:\>cd ArtPortfolio
+
+C:\ArtPortfolio>mkdir Originals
+
+C:\ArtPortfolio>mkdir WIP
+
+C:\ArtPortfolio>mkdir ClientProofs
+
+C:\ArtPortfolio>mkdir FinalExports
+
+C:\ArtPortfolio>mkdir PortfolioBackup
+
+C:\ArtPortfolio>type nul > Originals\landscape.psd
+
+C:\ArtPortfolio>type nul > Originals\portrait.psd
+
+C:\ArtPortfolio>echo Concept art - Version 2 > WIP\character_design.txt
+
+C:\ArtPortfolio>type nul > WIP\background_sketch.png
+
+C:\ArtPortfolio>type nul > ClientProofs\clientA_preview.jpg
+
+C:\ArtPortfolio>type nul > ClientProofs\clientB_preview.jpg
+
+C:\ArtPortfolio>type nul > FinalExports\portfolio_piece1.png
+
+C:\ArtPortfolio>copy Originals\landscape.psd PortfolioBackup\
+        1 file(s) copied.
+
+C:\ArtPortfolio>copy Originals\portrait.psd PortfolioBackup\
+        1 file(s) copied.
+
+C:\ArtPortfolio>copy WIP\character_design.txt PortfolioBackup\
+        1 file(s) copied.
+
+C:\ArtPortfolio>copy WIP\background_sketch.png PortfolioBackup\
+        1 file(s) copied.
+
+C:\ArtPortfolio>ren PortfolioBackup\landscape.psd landscape_v1.psd
+
+C:\ArtPortfolio>move ClientProofs\clientA_preview.jpg FinalExports\
+        1 file(s) moved.
+
+C:\ArtPortfolio>del WIP\background_sketch.png
+
+C:\ArtPortfolio>mkdir TempRenders
+
+C:\ArtPortfolio>rmdir TempRenders
+
+C:\ArtPortfolio>cd C:\
+
+C:\>rmdir /s /q ArtPortfolio\ClientProofs
+
+C:\>rmdir /s /q ArtPortfolio
+
+C:\>
+
+Task 24:
+
+C:\>mkdir Conference2024
+
+C:\>cd Conference2024
+
+C:\Conference2024>mkdir Vendors
+
+C:\Conference2024>mkdir Schedule
+
+C:\Conference2024>mkdir Attendees
+
+C:\Conference2024>mkdir Budget
+
+C:\Conference2024>mkdir EventBackup
+
+C:\Conference2024>echo ABC Catering - Confirmed > Vendors\catering.txt
+
+C:\Conference2024>type nul > Vendors\av_equipment.txt
+
+C:\Conference2024>echo 9am Keynote, 12pm Lunch, 2pm Workshops > Schedule\day1.txt
+
+C:\Conference2024>echo 10am Panels, 1pm Networking, 4pm Closing > Schedule\day2.txt
+
+C:\Conference2024>echo Total Registered: 250 > Attendees\registrations.txt
+
+C:\Conference2024>echo Venue: $5000, Food: $3000 > Budget\expenses.txt
+
+C:\Conference2024>copy Vendors\catering.txt EventBackup\
+        1 file(s) copied.
+
+C:\Conference2024>copy Vendors\av_equipment.txt EventBackup\
+        1 file(s) copied.
+
+C:\Conference2024>copy Schedule\day1.txt EventBackup\
+        1 file(s) copied.
+
+C:\Conference2024>copy Schedule\day2.txt EventBackup\
+        1 file(s) copied.
+
+C:\Conference2024>ren EventBackup\catering.txt catering_confirmed.txt
+
+C:\Conference2024>move Vendors\av_equipment.txt EventBackup\
+Overwrite C:\Conference2024\EventBackup\av_equipment.txt? (Yes/No/All): y
+        1 file(s) moved.
+
+C:\Conference2024>del Schedule\day2.txt
+
+C:\Conference2024>mkdir TempBadges
+
+C:\Conference2024>rmdir TempBadges
+
+C:\Conference2024>cd C:\
+
+C:\>rmdir /s /q Conference2024\Budget
+
+C:\>rmdir /s /q Conference2024
+
+C:\>
+
+Task 25:
+
+C:\>mkdir MobileApp
+
+C:\>cd MobileApp
+
+C:\MobileApp>mkdir iOS
+
+C:\MobileApp>mkdir Android
+
+C:\MobileApp>mkdir Shared
+
+C:\MobileApp>mkdir Documentation
+
+C:\MobileApp>mkdir BuildBackup
+
+C:\MobileApp>echo // iOS App Delegate > iOS\AppDelegate.swift
+
+C:\MobileApp>type nul > iOS\icon_ios.png
+
+C:\MobileApp>echo // Android Main Activity > Android\MainActivity.java
+
+C:\MobileApp>type nul > Android\icon_android.png
+
+C:\MobileApp>echo export const API_URL = 'https://api.example.com' > Shared\constants.js
+
+C:\MobileApp>echo # Mobile App Documentation > Documentation\readme.md
+
+C:\MobileApp>copy iOS\AppDelegate.swift BuildBackup\
+        1 file(s) copied.
+
+C:\MobileApp>copy Android\MainActivity.java BuildBackup\
+        1 file(s) copied.
+
+C:\MobileApp>copy Shared\constants.js BuildBackup\
+        1 file(s) copied.
+
+C:\MobileApp>ren BuildBackup\AppDelegate.swift AppDelegate_v1.swift
+
+C:\MobileApp>move iOS\icon_ios.png BuildBackup\
+        1 file(s) moved.
+
+C:\MobileApp>del Android\icon_android.png
+
+C:\MobileApp>mkdir TempBuilds
+
+C:\MobileApp>rmdir TempBuilds
+
+C:\MobileApp>cd C:\
+
+C:\>rmdir /s /q MobileApp\Documentation
+
+C:\>rmdir /s /q MobileApp
+
+C:\>
+
+Task 26:
+
+C:\>mkdir RealEstate
+
+C:\>cd RealEstate
+
+C:\RealEstate>mkdir Active
+
+C:\RealEstate>mkdir Pending
+
+C:\RealEstate>mkdir Sold
+
+C:\RealEstate>mkdir Photos
+
+C:\RealEstate>mkdir ListingBackup
+
+C:\RealEstate>echo 3 bed, 2 bath, $450,000 > Active\123_main_st.txt
+
+C:\RealEstate>echo 4 bed, 3 bath, $625,000 > Active\456_oak_ave.txt
+
+C:\RealEstate>type nul > Active\789_pine_ln.txt
+
+C:\RealEstate>echo Under contract - $380,000 > Pending\321_elm_st.txt
+
+C:\RealEstate>echo Sold: $520,000 > Sold\555_maple_dr.txt
+
+C:\RealEstate>type nul > Photos\123_main_front.jpg
+
+C:\RealEstate>type nul > Photos\123_main_kitchen.jpg
+
+C:\RealEstate>copy Active\123_main_st.txt ListingBackup\
+        1 file(s) copied.
+
+C:\RealEstate>copy Active\456_oak_ave.txt ListingBackup\
+        1 file(s) copied.
+
+C:\RealEstate>copy Active\789_pine_ln.txt ListingBackup\
+        1 file(s) copied.
+
+C:\RealEstate>copy Pending\321_elm_st.txt ListingBackup\
+        1 file(s) copied.
+
+C:\RealEstate>ren ListingBackup\123_main_st.txt 123_main_st_active.txt
+
+C:\RealEstate>move Active\789_pine_ln.txt ListingBackup\
+Overwrite C:\RealEstate\ListingBackup\789_pine_ln.txt? (Yes/No/All): y
+        1 file(s) moved.
+
+C:\RealEstate>del Photos\123_main_kitchen.jpg
+
+C:\RealEstate>mkdir TempShowings
+
+C:\RealEstate>rmdir TempShowings
+
+C:\RealEstate>cd C:\
+
+C:\>rmdir /s /q RealEstate\Sold
+
+C:\>rmdir /s /q RealEstate\Pending
+
+C:\>rmdir /s /q RealEstate
+
+C:\>
+
+Task 27:
+
+C:\>mkdir LanguageLearning
+
+C:\>cd LanguageLearning
+
+C:\LanguageLearning>mkdir Spanish
+
+C:\LanguageLearning>mkdir French
+
+C:\LanguageLearning>mkdir Japanese
+
+C:\LanguageLearning>mkdir Progress
+
+C:\LanguageLearning>mkdir StudyBackup
+
+C:\LanguageLearning>echo hola=hello, gracias=thank you > Spanish\vocab.txt
+
+C:\LanguageLearning>type nul > Spanish\audio_lesson1.mp3
+
+C:\LanguageLearning>echo bonjour=hello, merci=thank you > French\phrases.txt
+
+C:\LanguageLearning>type nul > French\grammar.pdf
+
+C:\LanguageLearning>echo a=a, i=i, u=u, e=e, o=o > Japanese\hiragana.txt
+
+C:\LanguageLearning>echo Days studied: 15 > Progress\spanish_log.txt
+
+C:\LanguageLearning>echo Days studied: 8 > Progress\french_log.txt
+
+C:\LanguageLearning>copy Spanish\vocab.txt StudyBackup\
+        1 file(s) copied.
+
+C:\LanguageLearning>copy Spanish\audio_lesson1.mp3 StudyBackup\
+        1 file(s) copied.
+
+C:\LanguageLearning>copy French\phrases.txt StudyBackup\
+        1 file(s) copied.
+
+C:\LanguageLearning>ren StudyBackup\vocab.txt spanish_vocab_master.txt
+
+C:\LanguageLearning>move French\grammar.pdf StudyBackup\
+        1 file(s) moved.
+
+C:\LanguageLearning>del Progress\french_log.txt
+
+C:\LanguageLearning>mkdir TempRecordings
+
+C:\LanguageLearning>rmdir TempRecordings
+
+C:\LanguageLearning>cd C:\
+
+C:\>rmdir /s /q LanguageLearning\Japanese
+
+C:\>rmdir /s /q LanguageLearning
+
+C:\>
+
+Task 28:
+
+C:\>mkdir BusinessAccounting
+
+C:\>cd BusinessAccounting
+
+C:\BusinessAccounting>mkdir Invoices
+
+C:\BusinessAccounting>mkdir Receipts
+
+C:\BusinessAccounting>mkdir TaxDocuments
+
+C:\BusinessAccounting>mkdir Reports
+
+C:\BusinessAccounting>mkdir AccountingBackup
+
+C:\BusinessAccounting>echo Client: XYZ Corp - Amount: $2500 > Invoices\invoice_jan.txt
+
+C:\BusinessAccounting>echo Client: ABC LLC - Amount: $1800 > Invoices\invoice_feb.txt
+
+C:\BusinessAccounting>type nul > Receipts\office_supplies.pdf
+
+C:\BusinessAccounting>type nul > Receipts\software_subscription.pdf
+
+C:\BusinessAccounting>echo Vendor W9 Forms - 2024 > TaxDocuments\w9_forms.txt
+
+C:\BusinessAccounting>echo Q1 Revenue: $15,000, Expenses: $8,000 > Reports\q1_report.txt
+
+C:\BusinessAccounting>echo Q2 Revenue: $18,000, Expenses: $9,500 > Reports\q2_report.txt
+
+C:\BusinessAccounting>copy Invoices\invoice_jan.txt AccountingBackup\
+        1 file(s) copied.
+
+C:\BusinessAccounting>copy Invoices\invoice_feb.txt AccountingBackup\
+        1 file(s) copied.
+
+C:\BusinessAccounting>copy Reports\q1_report.txt AccountingBackup\
+        1 file(s) copied.
+
+C:\BusinessAccounting>ren AccountingBackup\invoice_jan.txt invoice_jan_processed.txt
+
+C:\BusinessAccounting>move Receipts\office_supplies.pdf AccountingBackup\
+        1 file(s) moved.
+
+C:\BusinessAccounting>del Reports\q2_report.txt
+
+C:\BusinessAccounting>mkdir TempReconcile
+
+C:\BusinessAccounting>rmdir TempReconcile
+
+C:\BusinessAccounting>cd C:\
+
+C:\>rmdir /s /q BusinessAccounting\TaxDocuments
+
+C:\>rmdir /s /q BusinessAccounting\Receipts
+
+C:\>rmdir /s /q BusinessAccounting
+
+C:\>
+
+Task 29:
+
+C:\>mkdir GardenJournal
+
+C:\>cd GardenJournal
+
+C:\GardenJournal>mkdir Vegetables
+
+C:\GardenJournal>mkdir Herbs
+
+C:\GardenJournal>mkdir Flowers
+
+C:\GardenJournal>mkdir Photos
+
+C:\GardenJournal>mkdir GardenBackup
+
+C:\GardenJournal>echo Planted: March 15, Variety: Roma > Vegetables\tomatoes.txt
+
+C:\GardenJournal>type nul > Vegetables\peppers.txt
+
+C:\GardenJournal>echo Planted: April 1, Harvest: Continuous > Herbs\basil.txt
+
+C:\GardenJournal>echo Planted: March 20, Warning: Invasive > Herbs\mint.txt
+
+C:\GardenJournal>echo Variety: Hybrid Tea, Bloom: Summer > Flowers\roses.txt
+
+C:\GardenJournal>type nul > Photos\spring_garden.jpg
+
+C:\GardenJournal>type nul > Photos\summer_harvest.jpg
+
+C:\GardenJournal>copy Vegetables\tomatoes.txt GardenBackup\
+        1 file(s) copied.
+
+C:\GardenJournal>copy Vegetables\peppers.txt GardenBackup\
+        1 file(s) copied.
+
+C:\GardenJournal>copy Herbs\basil.txt GardenBackup\
+        1 file(s) copied.
+
+C:\GardenJournal>ren GardenBackup\tomatoes.txt tomatoes_2024.txt
+
+C:\GardenJournal>move Vegetables\peppers.txt GardenBackup\
+Overwrite C:\GardenJournal\GardenBackup\peppers.txt? (Yes/No/All): y
+        1 file(s) moved.
+
+C:\GardenJournal>del Herbs\mint.txt
+
+C:\GardenJournal>mkdir TempLayouts
+
+C:\GardenJournal>rmdir TempLayouts
+
+C:\GardenJournal>cd C:\
+
+C:\>rmdir /s /q GardenJournal\Flowers
+
+C:\>rmdir /s /q GardenJournal
+
+C:\>
+
+Task 30:
+
+C:\>mkdir JobSearch
+
+C:\>cd JobSearch
+
+C:\JobSearch>mkdir Applications
+
+C:\JobSearch>mkdir Resumes
+
+C:\JobSearch>mkdir CoverLetters
+
+C:\JobSearch>mkdir CompanyResearch
+
+C:\JobSearch>mkdir SearchBackup
+
+C:\JobSearch>echo Software Engineer Resume - 5 years experience > Resumes\resume_tech.txt
+
+C:\JobSearch>type nul > Resumes\resume_general.pdf
+
+C:\JobSearch>echo Cover Letter - Google Application > CoverLetters\cl_google.txt
+
+C:\JobSearch>echo Cover Letter - Amazon Application > CoverLetters\cl_amazon.txt
+
+C:\JobSearch>echo Applied: Jan 15, Status: Pending > Applications\applied_google.txt
+
+C:\JobSearch>echo Applied: Jan 20, Status: Interview Scheduled > Applications\applied_meta.txt
+
+C:\JobSearch>echo Mission: Organize world's information > CompanyResearch\google_notes.txt
+
+C:\JobSearch>copy Resumes\resume_tech.txt SearchBackup\
+        1 file(s) copied.
+
+C:\JobSearch>copy CoverLetters\cl_google.txt SearchBackup\
+        1 file(s) copied.
+
+C:\JobSearch>copy CoverLetters\cl_amazon.txt SearchBackup\
+        1 file(s) copied.
+
+C:\JobSearch>ren SearchBackup\cl_google.txt cl_google_submitted.txt
+
+C:\JobSearch>move Resumes\resume_general.pdf SearchBackup\
+        1 file(s) moved.
+
+C:\JobSearch>del Applications\applied_meta.txt
+
+C:\JobSearch>mkdir TempInterviews
+
+C:\JobSearch>rmdir TempInterviews
+
+C:\JobSearch>cd C:\
+
+C:\>rmdir /s /q JobSearch\CompanyResearch
+
+C:\>rmdir /s /q JobSearch
+
+C:\>
+
+Task 31:
+
+C:\>mkdir FamilyPlanner
+
+C:\>cd FamilyPlanner
+
+C:\FamilyPlanner>mkdir Birthdays
+
+C:\FamilyPlanner>mkdir Appointments
+
+C:\FamilyPlanner>mkdir School
+
+C:\FamilyPlanner>mkdir Vacations
+
+C:\FamilyPlanner>mkdir CalendarBackup
+
+C:\FamilyPlanner>echo May 15 - Gift ideas: gardening supplies > Birthdays\mom.txt
+
+C:\FamilyPlanner>type nul > Birthdays\dad.txt
+
+C:\FamilyPlanner>echo March 10, 2pm - Kids cleaning > Appointments\dentist.txt
+
+C:\FamilyPlanner>echo April 5, 10am - Annual physical > Appointments\doctor.txt
+
+C:\FamilyPlanner>echo First Tuesday each month, 7pm > School\pta_meeting.txt
+
+C:\FamilyPlanner>type nul > School\spring_break.txt
+
+C:\FamilyPlanner>echo July - Beach house rental confirmed > Vacations\summer_2024.txt
+
+C:\FamilyPlanner>copy Birthdays\mom.txt CalendarBackup\
+        1 file(s) copied.
+
+C:\FamilyPlanner>copy Birthdays\dad.txt CalendarBackup\
+        1 file(s) copied.
+
+C:\FamilyPlanner>copy Appointments\dentist.txt CalendarBackup\
+        1 file(s) copied.
+
+C:\FamilyPlanner>ren CalendarBackup\mom.txt mom_birthday_2024.txt
+
+C:\FamilyPlanner>move Birthdays\dad.txt CalendarBackup\
+Overwrite C:\FamilyPlanner\CalendarBackup\dad.txt? (Yes/No/All): y
+        1 file(s) moved.
+
+C:\FamilyPlanner>del School\spring_break.txt
+
+C:\FamilyPlanner>mkdir TempInvites
+
+C:\FamilyPlanner>rmdir TempInvites
+
+C:\FamilyPlanner>cd C:\
+
+C:\>rmdir /s /q FamilyPlanner\Appointments
+
+C:\>rmdir /s /q FamilyPlanner
+
+C:\>
+
+Task 32:
+
+C:\>mkdir CarMaintenance
+
+C:\>cd CarMaintenance
+
+C:\CarMaintenance>mkdir OilChanges
+
+C:\CarMaintenance>mkdir Tires
+
+C:\CarMaintenance>mkdir Repairs
+
+C:\CarMaintenance>mkdir Insurance
+
+C:\CarMaintenance>mkdir VehicleBackup
+
+C:\CarMaintenance>echo Date: 01/15/2024, Mileage: 45,000 > OilChanges\jan_2024.txt
+
+C:\CarMaintenance>type nul > OilChanges\receipt_jan.pdf
+
+C:\CarMaintenance>echo Rotated: 03/01/2024, Mileage: 48,000 > Tires\rotation.txt
+
+C:\CarMaintenance>type nul > Tires\new_tires.txt
+
+C:\CarMaintenance>echo Brake pads replaced - 02/10/2024, Cost: $350 > Repairs\brakes.txt
+
+C:\CarMaintenance>echo Policy #: 987654321, Expires: 12/31/2024 > Insurance\policy.txt
+
+C:\CarMaintenance>type nul > Insurance\insurance_card.pdf
+
+C:\CarMaintenance>copy OilChanges\jan_2024.txt VehicleBackup\
+        1 file(s) copied.
+
+C:\CarMaintenance>copy OilChanges\receipt_jan.pdf VehicleBackup\
+        1 file(s) copied.
+
+C:\CarMaintenance>copy Repairs\brakes.txt VehicleBackup\
+        1 file(s) copied.
+
+C:\CarMaintenance>ren VehicleBackup\jan_2024.txt oil_change_jan_2024.txt
+
+C:\CarMaintenance>move Tires\new_tires.txt VehicleBackup\
+        1 file(s) moved.
+
+C:\CarMaintenance>del OilChanges\receipt_jan.pdf
+
+C:\CarMaintenance>mkdir TempReceipts
+
+C:\CarMaintenance>rmdir TempReceipts
+
+C:\CarMaintenance>cd C:\
+
+C:\>rmdir /s /q CarMaintenance\Insurance
+
+C:\>rmdir /s /q CarMaintenance
+
+C:\>
+
+Task 33:
+
+C:\>mkdir BookClub
+
+C:\>cd BookClub
+
+C:\BookClub>mkdir ReadingList
+
+C:\BookClub>mkdir Members
+
+C:\BookClub>mkdir MeetingNotes
+
+C:\BookClub>mkdir BookSummaries
+
+C:\BookClub>mkdir ClubBackup
+
+C:\BookClub>echo Currently Reading: Dune by Frank Herbert > ReadingList\current.txt
+
+C:\BookClub>echo Next: Project Hail Mary, Klara and the Sun > ReadingList\upcoming.txt
+
+C:\BookClub>echo Sarah, Mike, Jessica, David, Emma > Members\contacts.txt
+
+C:\BookClub>type nul > Members\new_members.txt
+
+C:\BookClub>echo Discussed chapters 1-10, next meeting Feb 5 > MeetingNotes\jan_meeting.txt
+
+C:\BookClub>echo Discussed chapters 11-20, themes of power > MeetingNotes\feb_meeting.txt
+
+C:\BookClub>echo Arrakis, spice, Paul Atreides journey > BookSummaries\dune_summary.txt
+
+C:\BookClub>copy ReadingList\current.txt ClubBackup\
+        1 file(s) copied.
+
+C:\BookClub>copy ReadingList\upcoming.txt ClubBackup\
+        1 file(s) copied.
+
+C:\BookClub>copy MeetingNotes\jan_meeting.txt ClubBackup\
+        1 file(s) copied.
+
+C:\BookClub>ren ClubBackup\current.txt current_read_jan.txt
+
+C:\BookClub>move Members\new_members.txt ClubBackup\
+        1 file(s) moved.
+
+C:\BookClub>del MeetingNotes\feb_meeting.txt
+
+C:\BookClub>mkdir TempPolls
+
+C:\BookClub>rmdir TempPolls
+
+C:\BookClub>cd C:\
+
+C:\>rmdir /s /q BookClub\BookSummaries
+
+C:\>rmdir /s /q BookClub
+
+C:\>
+
+Task 34:
+
+C:\>mkdir HomeRenovation
+
+C:\>cd HomeRenovation
+
+C:\HomeRenovation>mkdir Quotes
+
+C:\HomeRenovation>mkdir Materials
+
+C:\HomeRenovation>mkdir Permits
+
+C:\HomeRenovation>mkdir ProgressPhotos
+
+C:\HomeRenovation>mkdir RenoBackup
+
+C:\HomeRenovation>echo Quote: $15,000 - Kitchen remodel > Quotes\contractor_a.txt
+
+C:\HomeRenovation>echo Quote: $13,500 - Kitchen remodel > Quotes\contractor_b.txt
+
+C:\HomeRenovation>echo Cabinets, countertops, sink, faucet, tiles > Materials\shopping_list.txt
+
+C:\HomeRenovation>type nul > Materials\paint_colors.txt
+
+C:\HomeRenovation>echo Permit #: 2024-0456, Approved: 02/01/2024 > Permits\building_permit.txt
+
+C:\HomeRenovation>type nul > Permits\electrical_permit.txt
+
+C:\HomeRenovation>type nul > ProgressPhotos\before_kitchen.jpg
+
+C:\HomeRenovation>type nul > ProgressPhotos\demo_day.jpg
+
+C:\HomeRenovation>copy Quotes\contractor_a.txt RenoBackup\
+        1 file(s) copied.
+
+C:\HomeRenovation>copy Quotes\contractor_b.txt RenoBackup\
+        1 file(s) copied.
+
+C:\HomeRenovation>copy Materials\shopping_list.txt RenoBackup\
+        1 file(s) copied.
+
+C:\HomeRenovation>ren RenoBackup\contractor_a.txt contractor_a_quote.pdf
+
+C:\HomeRenovation>move Materials\paint_colors.txt RenoBackup\
+        1 file(s) moved.
+
+C:\HomeRenovation>del Permits\electrical_permit.txt
+
+C:\HomeRenovation>mkdir TempInspections
+
+C:\HomeRenovation>rmdir TempInspections
+
+C:\HomeRenovation>cd C:\
+
+C:\>rmdir /s /q HomeRenovation\ProgressPhotos
+
+C:\>rmdir /s /q HomeRenovation
+
+C:\>
+
+Task 35:
+
+C:\>mkdir PetCare
+
+C:\>cd PetCare
+
+C:\PetCare>mkdir VetVisits
+
+C:\PetCare>mkdir Vaccinations
+
+C:\PetCare>mkdir Medications
+
+C:\PetCare>mkdir Photos
+
+C:\PetCare>mkdir PetBackup
+
+C:\PetCare>echo Date: 03/10/2024, Weight: 45 lbs, Healthy > VetVisits\annual_checkup.txt
+
+C:\PetCare>type nul > VetVisits\dental_cleaning.txt
+
+C:\PetCare>echo Administered: 01/15/2024, Expires: 01/15/2025 > Vaccinations\rabies.txt
+
+C:\PetCare>echo Administered: 01/15/2024, Expires: 01/15/2025 > Vaccinations\dhpp.txt
+
+C:\PetCare>echo Monthly: 1st of each month > Medications\flea_prevention.txt
+
+C:\PetCare>type nul > Medications\prescription_food.txt
+
+C:\PetCare>type nul > Photos\pet_portrait.jpg
+
+C:\PetCare>type nul > Photos\park_day.jpg
+
+C:\PetCare>copy Vaccinations\rabies.txt PetBackup\
+        1 file(s) copied.
+
+C:\PetCare>copy Vaccinations\dhpp.txt PetBackup\
+        1 file(s) copied.
+
+C:\PetCare>copy VetVisits\annual_checkup.txt PetBackup\
+        1 file(s) copied.
+
+C:\PetCare>ren PetBackup\rabies.txt rabies_2024.txt
+
+C:\PetCare>move VetVisits\dental_cleaning.txt PetBackup\
+        1 file(s) moved.
+
+C:\PetCare>del Medications\prescription_food.txt
+
+C:\PetCare>mkdir TempGrooming
+
+C:\PetCare>rmdir TempGrooming
+
+C:\PetCare>cd C:\
+
+C:\>rmdir /s /q PetCare\Photos
+
+C:\>rmdir /s /q PetCare
+
+C:\>
+
+Task 36:
+
+C:\>mkdir PasswordVault
+
+C:\>cd PasswordVault
+
+C:\PasswordVault>mkdir Personal
+
+C:\PasswordVault>mkdir Work
+
+C:\PasswordVault>mkdir Shared
+
+C:\PasswordVault>mkdir Archive
+
+C:\PasswordVault>mkdir VaultBackup
+
+C:\PasswordVault>echo personal@email.com - Last changed: 02/2024 > Personal\email.txt
+
+C:\PasswordVault>type nul > Personal\banking.txt
+
+C:\PasswordVault>echo VPN credentials - Updated quarterly > Work\vpn.txt
+
+C:\PasswordVault>echo work@company.com - 2FA enabled > Work\email_work.txt
+
+C:\PasswordVault>echo Family Netflix account > Shared\streaming.txt
+
+C:\PasswordVault>type nul > Shared\wifi_guest.txt
+
+C:\PasswordVault>echo Deprecated accounts list > Archive\old_accounts.txt
+
+C:\PasswordVault>copy Personal\email.txt VaultBackup\
+        1 file(s) copied.
+
+C:\PasswordVault>copy Personal\banking.txt VaultBackup\
+        1 file(s) copied.
+
+C:\PasswordVault>copy Work\vpn.txt VaultBackup\
+        1 file(s) copied.
+
+C:\PasswordVault>copy Work\email_work.txt VaultBackup\
+        1 file(s) copied.
+
+C:\PasswordVault>ren VaultBackup\email.txt personal_email.txt
+
+C:\PasswordVault>move Personal\banking.txt VaultBackup\
+Overwrite C:\PasswordVault\VaultBackup\banking.txt? (Yes/No/All): y
+        1 file(s) moved.
+
+C:\PasswordVault>del Shared\wifi_guest.txt
+
+C:\PasswordVault>mkdir TempExports
+
+C:\PasswordVault>rmdir TempExports
+
+C:\PasswordVault>cd C:\
+
+C:\>rmdir /s /q PasswordVault\Archive
+
+C:\>rmdir /s /q PasswordVault\Shared
+
+C:\>rmdir /s /q PasswordVault
+
+C:\>
+
+Task 37:
+
+C:\>mkdir TravelPlan
+
+C:\>cd TravelPlan
+
+C:\TravelPlan>mkdir Flights
+
+C:\TravelPlan>mkdir Hotels
+
+C:\TravelPlan>mkdir Itinerary
+
+C:\TravelPlan>mkdir Documents
+
+C:\TravelPlan>mkdir TravelBackup
+
+C:\TravelPlan>echo JFK to LHR - June 10, 8:00 PM, BA112 > Flights\outbound.txt
+
+C:\TravelPlan>echo LHR to JFK - June 20, 2:00 PM, BA113 > Flights\return.txt
+
+C:\TravelPlan>echo The Savoy - Confirmation #: 98765 > Hotels\london_hotel.txt
+
+C:\TravelPlan>type nul > Hotels\paris_hotel.txt
+
+C:\TravelPlan>echo Arrive LHR, checkin, explore Covent Garden > Itinerary\day1.txt
+
+C:\TravelPlan>echo Tower of London, Tower Bridge, Thames cruise > Itinerary\day2.txt
+
+C:\TravelPlan>echo Passport #: 123456789, Expires: 2028 > Documents\passport_info.txt
+
+C:\TravelPlan>type nul > Documents\visa_application.pdf
+
+C:\TravelPlan>copy Flights\outbound.txt TravelBackup\
+        1 file(s) copied.
+
+C:\TravelPlan>copy Flights\return.txt TravelBackup\
+        1 file(s) copied.
+
+C:\TravelPlan>copy Itinerary\day1.txt TravelBackup\
+        1 file(s) copied.
+
+C:\TravelPlan>ren TravelBackup\outbound.txt flight_outbound_june10.txt
+
+C:\TravelPlan>move Hotels\paris_hotel.txt TravelBackup\
+        1 file(s) moved.
+
+C:\TravelPlan>del Documents\visa_application.pdf
+
+C:\TravelPlan>mkdir TempMaps
+
+C:\TravelPlan>rmdir TempMaps
+
+C:\TravelPlan>cd C:\
+
+C:\>rmdir /s /q TravelPlan\Hotels
+
+C:\>rmdir /s /q TravelPlan
+
+C:\>
+
+Task 38:
+
+C:\>mkdir WorkoutRoutine
+
+C:\>cd WorkoutRoutine
+
+C:\WorkoutRoutine>mkdir Exercises
+
+C:\WorkoutRoutine>mkdir WorkoutSplits
+
+C:\WorkoutRoutine>mkdir Progress
+
+C:\WorkoutRoutine>mkdir MealPrep
+
+C:\WorkoutRoutine>mkdir FitnessBackup
+
+C:\WorkoutRoutine>echo Bench press, incline dumbbell, cable flys > Exercises\chest.txt
+
+C:\WorkoutRoutine>echo Pull ups, rows, lat pulldowns, deadlifts > Exercises\back.txt
+
+C:\WorkoutRoutine>echo Chest, shoulders, triceps > WorkoutSplits\push_day.txt
+
+C:\WorkoutRoutine>type nul > WorkoutSplits\pull_day.txt
+
+C:\WorkoutRoutine>echo Chest: 40in, Waist: 32in, Arms: 15in > Progress\measurements.txt
+
+C:\WorkoutRoutine>echo Jan: 175, Feb: 172, Mar: 170 > Progress\weight_log.txt
+
+C:\WorkoutRoutine>echo Oatmeal, eggs, fruit, protein shake > MealPrep\breakfast.txt
+
+C:\WorkoutRoutine>type nul > MealPrep\lunch_ideas.txt
+
+C:\WorkoutRoutine>copy Exercises\chest.txt FitnessBackup\
+        1 file(s) copied.
+
+C:\WorkoutRoutine>copy Exercises\back.txt FitnessBackup\
+        1 file(s) copied.
+
+C:\WorkoutRoutine>copy WorkoutSplits\push_day.txt FitnessBackup\
+        1 file(s) copied.
+
+C:\WorkoutRoutine>ren FitnessBackup\chest.txt chest_exercises_master.txt
+
+C:\WorkoutRoutine>move WorkoutSplits\pull_day.txt FitnessBackup\
+        1 file(s) moved.
+
+C:\WorkoutRoutine>del MealPrep\lunch_ideas.txt
+
+C:\WorkoutRoutine>mkdir TempVideos
+
+C:\WorkoutRoutine>rmdir TempVideos
+
+C:\WorkoutRoutine>cd C:\
+
+C:\>rmdir /s /q WorkoutRoutine\MealPrep
+
+C:\>rmdir /s /q WorkoutRoutine
+
+C:\>
+
+Task 39:
+
+C:\>mkdir GiftPlanning
+
+C:\>cd GiftPlanning
+
+C:\GiftPlanning>mkdir Recipients
+
+C:\GiftPlanning>mkdir GiftIdeas
+
+C:\GiftPlanning>mkdir Budget
+
+C:\GiftPlanning>mkdir ShoppingStatus
+
+C:\GiftPlanning>mkdir GiftBackup
+
+C:\GiftPlanning>echo Mom, Dad, Sarah, Mike, Grandma > Recipients\family.txt
+
+C:\GiftPlanning>type nul > Recipients\friends.txt
+
+C:\GiftPlanning>echo Garden tools, cookbook, spa certificate > GiftIdeas\mom_ideas.txt
+
+C:\GiftPlanning>echo Golf accessories, grilling set, workshop tools > GiftIdeas\dad_ideas.txt
+
+C:\GiftPlanning>echo Total: $500, Spent: $320, Remaining: $180 > Budget\total_budget.txt
+
+C:\GiftPlanning>type nul > Budget\receipts.txt
+
+C:\GiftPlanning>echo Mom: Cookbook, Dad: Golf gloves > ShoppingStatus\purchased.txt
+
+C:\GiftPlanning>echo Sarah: Jewelry, Mike: Video game > ShoppingStatus\need_to_buy.txt
+
+C:\GiftPlanning>copy GiftIdeas\mom_ideas.txt GiftBackup\
+        1 file(s) copied.
+
+C:\GiftPlanning>copy GiftIdeas\dad_ideas.txt GiftBackup\
+        1 file(s) copied.
+
+C:\GiftPlanning>copy Budget\total_budget.txt GiftBackup\
+        1 file(s) copied.
+
+C:\GiftPlanning>ren GiftBackup\mom_ideas.txt mom_gift_ideas_final.txt
+
+C:\GiftPlanning>move Recipients\friends.txt GiftBackup\
+        1 file(s) moved.
+
+C:\GiftPlanning>del Budget\receipts.txt
+
+C:\GiftPlanning>mkdir TempWrapping
+
+C:\GiftPlanning>rmdir TempWrapping
+
+C:\GiftPlanning>cd C:\
+
+C:\>rmdir /s /q GiftPlanning\ShoppingStatus
+
+C:\>rmdir /s /q GiftPlanning
+
+C:\>
+
+Task 40:
+
+C:\>mkdir HomeBrewing
+
+C:\>cd HomeBrewing
+
+C:\HomeBrewing>mkdir Recipes
+
+C:\HomeBrewing>mkdir Fermentation
+
+C:\HomeBrewing>mkdir TastingNotes
+
+C:\HomeBrewing>mkdir Inventory
+
+C:\HomeBrewing>mkdir BrewBackup
+
+C:\HomeBrewing>echo Citra hops, 2-row malt, US-05 yeast, dry hop 7 days > Recipes\ipa_recipe.txt
+
+C:\HomeBrewing>echo Roasted barley, chocolate malt, English ale yeast > Recipes\stout_recipe.txt
+
+C:\HomeBrewing>echo OG: 1.065, Temp: 68F, Day 3: Active fermentation > Fermentation\batch_001_log.txt
+
+C:\HomeBrewing>type nul > Fermentation\batch_002_log.txt
+
+C:\HomeBrewing>echo Citrus forward, medium bitterness, clean finish > TastingNotes\ipa_tasting.txt
+
+C:\HomeBrewing>echo Coffee notes, chocolate, smooth mouthfeel > TastingNotes\stout_tasting.txt
+
+C:\HomeBrewing>echo IPA: 24 bottles, Stout: 18 bottles > Inventory\bottles.txt
+
+C:\HomeBrewing>type nul > Inventory\supplies.txt
+
+C:\HomeBrewing>copy Recipes\ipa_recipe.txt BrewBackup\
+        1 file(s) copied.
+
+C:\HomeBrewing>copy Recipes\stout_recipe.txt BrewBackup\
+        1 file(s) copied.
+
+C:\HomeBrewing>copy TastingNotes\ipa_tasting.txt BrewBackup\
+        1 file(s) copied.
+
+C:\HomeBrewing>ren BrewBackup\ipa_recipe.txt ipa_recipe_citra.txt
+
+C:\HomeBrewing>move Fermentation\batch_002_log.txt BrewBackup\
+        1 file(s) moved.
+
+C:\HomeBrewing>del Inventory\supplies.txt
+
+C:\HomeBrewing>mkdir TempLabels
+
+C:\HomeBrewing>rmdir TempLabels
+
+C:\HomeBrewing>cd C:\
+
+C:\>rmdir /s /q HomeBrewing\Inventory
+
+C:\>rmdir /s /q HomeBrewing
+
+C:\>
+
+Task 41:
+
+C:\>mkdir EmergencyPrep
+
+C:\>cd EmergencyPrep
+
+C:\EmergencyPrep>mkdir Supplies
+
+C:\EmergencyPrep>mkdir Contacts
+
+C:\EmergencyPrep>mkdir Plans
+
+C:\EmergencyPrep>mkdir Documents
+
+C:\EmergencyPrep>mkdir PrepBackup
+
+C:\EmergencyPrep>echo Bandages, antiseptic, gauze, scissors, tape > Supplies\first_aid.txt
+
+C:\EmergencyPrep>echo 3-day supply per person, water: 1 gallon per day > Supplies\food_water.txt
+
+C:\EmergencyPrep>echo Police: 911, Fire: 911, Family: 555-0123 > Contacts\emergency_numbers.txt
+
+C:\EmergencyPrep>type nul > Contacts\neighbors.txt
+
+C:\EmergencyPrep>echo Primary route: Main St to Highway, Secondary: Oak Ave > Plans\evacuation.txt
+
+C:\EmergencyPrep>echo Community Center, 123 Park Ave > Plans\meeting_spot.txt
+
+C:\EmergencyPrep>echo Policy numbers and contact information > Documents\insurance.txt
+
+C:\EmergencyPrep>type nul > Documents\medical_info.txt
+
+C:\EmergencyPrep>copy Supplies\first_aid.txt PrepBackup\
+        1 file(s) copied.
+
+C:\EmergencyPrep>copy Supplies\food_water.txt PrepBackup\
+        1 file(s) copied.
+
+C:\EmergencyPrep>copy Contacts\emergency_numbers.txt PrepBackup\
+        1 file(s) copied.
+
+C:\EmergencyPrep>ren PrepBackup\first_aid.txt first_aid_checklist.txt
+
+C:\EmergencyPrep>move Contacts\neighbors.txt PrepBackup\
+        1 file(s) moved.
+
+C:\EmergencyPrep>del Documents\medical_info.txt
+
+C:\EmergencyPrep>mkdir TempDrills
+
+C:\EmergencyPrep>rmdir TempDrills
+
+C:\EmergencyPrep>cd C:\
+
+C:\>rmdir /s /q EmergencyPrep\Plans
+
+C:\>rmdir /s /q EmergencyPrep
+
+C:\>
+
+Task 42:
+
+C:\>mkdir UltimateChallenge
+
+C:\>cd UltimateChallenge
+
+C:\UltimateChallenge>mkdir Alpha
+
+C:\UltimateChallenge>mkdir Beta
+
+C:\UltimateChallenge>mkdir Gamma
+
+C:\UltimateChallenge>mkdir Delta
+
+C:\UltimateChallenge>mkdir Omega
+
+C:\UltimateChallenge>echo Alpha data > Alpha\file1.txt
+
+C:\UltimateChallenge>echo More Alpha > Alpha\file2.txt
+
+C:\UltimateChallenge>type nul > Alpha\file3.txt
+
+C:\UltimateChallenge>mkdir Beta\Beta1
+
+C:\UltimateChallenge>mkdir Beta\Beta2
+
+C:\UltimateChallenge>echo Beta configuration settings > Beta\Beta1\config.ini
+
+C:\UltimateChallenge>echo Source code here > Gamma\source.txt
+
+C:\UltimateChallenge>type nul > Gamma\backup.txt
+
+C:\UltimateChallenge>copy Alpha\file1.txt Omega\
+        1 file(s) copied.
+
+C:\UltimateChallenge>copy Alpha\file2.txt Omega\
+        1 file(s) copied.
+
+C:\UltimateChallenge>copy Alpha\file3.txt Omega\
+        1 file(s) copied.
+
+C:\UltimateChallenge>xcopy Beta Omega\Beta\ /E /I /Q
+1 File(s) copied
+
+C:\UltimateChallenge>move Gamma\source.txt Omega\
+        1 file(s) moved.
+
+C:\UltimateChallenge>ren Omega\file1.txt backup_file1.txt
+
+C:\UltimateChallenge>ren Omega\file2.txt backup_file2.txt
+
+C:\UltimateChallenge>ren Omega\file3.txt backup_file3.txt
+
+C:\UltimateChallenge>ren Omega\source.txt backup_source.txt
+
+C:\UltimateChallenge>del Alpha\file3.txt
+
+C:\UltimateChallenge>rmdir /s /q Beta\Beta2
+
+C:\UltimateChallenge>mkdir TempCache
+
+C:\UltimateChallenge>rmdir TempCache
+
+C:\UltimateChallenge>cd C:\
+
+C:\>rmdir Delta
+The system cannot find the file specified.
+
+C:\>rmdir /s /q UltimateChallenge\Gamma
+
+C:\>rmdir /s /q UltimateChallenge\Beta
+
+C:\>rmdir /s /q UltimateChallenge\Alpha
+
+C:\>rmdir /s /q UltimateChallenge
+
+C:\>
+
+
+
+
+
+
+
+
+
+

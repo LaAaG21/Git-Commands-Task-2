@@ -1,0 +1,549 @@
+Task 1:
+
+C:\Users\Codeline>cd C:\
+
+C:\>mkdir CompanyProfile
+
+C:\>cd CompanyProfile
+
+C:\CompanyProfile>git init
+Initialized empty Git repository in C:/CompanyProfile/.git/
+
+C:\CompanyProfile>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\CompanyProfile>type nul > index.html
+
+C:\CompanyProfile>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\CompanyProfile>git add .
+
+C:\CompanyProfile>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+
+C:\CompanyProfile>
+
+
+Task 2:
+
+C:\>cd CompanyProfile
+
+C:\CompanyProfile>type nul > style.css
+
+C:\CompanyProfile>type nul > script.js
+
+C:\CompanyProfile>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        script.js
+        style.css
+
+
+C:\CompanyProfile>git add .
+
+C:\CompanyProfile>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   script.js
+        new file:   style.css
+
+
+C:\CompanyProfile>cd..
+
+C:\>
+
+
+Task 3:
+
+C:\>cd CompanyProfile
+
+C:\CompanyProfile>type nul > notes.txt
+
+C:\CompanyProfile>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   script.js
+        new file:   style.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        notes.txt
+
+
+C:\CompanyProfile>git add .
+
+C:\CompanyProfile>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   notes.txt
+        new file:   script.js
+        new file:   style.css
+
+
+C:\CompanyProfile>git rm --cached notes.txt
+rm 'notes.txt'
+
+C:\CompanyProfile>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   script.js
+        new file:   style.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        notes.txt
+
+
+C:\CompanyProfile>
+
+Task 4:
+
+C:\CompanyProfile>echo Hello world >> index.html
+
+C:\CompanyProfile>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   script.js
+        new file:   style.css
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        notes.txt
+
+
+C:\CompanyProfile>git status -s
+AM index.html
+A  script.js
+A  style.css
+?? notes.txt
+
+C:\CompanyProfile>git status --short
+AM index.html
+A  script.js
+A  style.css
+?? notes.txt
+
+C:\CompanyProfile>git status -v
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   script.js
+        new file:   style.css
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        notes.txt
+
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/script.js b/script.js
+new file mode 100644
+index 0000000..e69de29
+diff --git a/style.css b/style.css
+new file mode 100644
+index 0000000..e69de29
+
+C:\CompanyProfile>
+
+
+Task 5:
+
+C:\CompanyProfile>type nul > about.html
+
+C:\CompanyProfile>echo Hello world >> about.html
+
+C:\CompanyProfile>type nul > content.html
+
+C:\CompanyProfile>git add .
+
+C:\CompanyProfile>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   about.html
+        new file:   content.html
+        new file:   index.html
+        new file:   notes.txt
+        new file:   script.js
+        new file:   style.css
+
+
+Task 6:
+
+C:\CompanyProfile>type nul > app.js
+
+C:\CompanyProfile>type nul > .gitignore
+
+C:\CompanyProfile>echo debug.log temp/ > .gitignore
+
+C:\CompanyProfile>type nul > debug.log
+
+C:\CompanyProfile>mkdir temp
+
+C:\CompanyProfile>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   about.html
+        new file:   content.html
+        new file:   index.html
+        new file:   notes.txt
+        new file:   script.js
+        new file:   style.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        app.js
+        debug.log
+
+
+C:\CompanyProfile>git status --ignored
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   about.html
+        new file:   content.html
+        new file:   index.html
+        new file:   notes.txt
+        new file:   script.js
+        new file:   style.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        app.js
+        debug.log
+
+
+C:\CompanyProfile>echo debug.log \n temp/ > .gitignore
+
+C:\CompanyProfile>echo debug.log /n temp/ > .gitignore
+
+C:\CompanyProfile>git status --ignored
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   about.html
+        new file:   content.html
+        new file:   index.html
+        new file:   notes.txt
+        new file:   script.js
+        new file:   style.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        app.js
+
+Ignored files:
+  (use "git add -f <file>..." to include in what will be committed)
+        debug.log
+
+
+C:\CompanyProfile>
+
+
+Task 7:
+
+C:\CompanyProfile>type nul > main.html
+
+C:\CompanyProfile>echo Hello  guys > app.js
+
+C:\CompanyProfile>git status -s
+A  about.html
+A  content.html
+A  index.html
+A  notes.txt
+A  script.js
+A  style.css
+?? .gitignore
+?? app.js
+?? main.html
+
+C:\CompanyProfile>git status -short
+error: did you mean `--short` (with two dashes)?
+
+C:\CompanyProfile>git status --short
+A  about.html
+A  content.html
+A  index.html
+A  notes.txt
+A  script.js
+A  style.css
+?? .gitignore
+?? app.js
+?? main.html
+
+C:\CompanyProfile>
+
+
+Task 8:
+
+C:\CompanyProfile>git rm --cached .
+fatal: not removing '.' recursively without -r
+
+C:\CompanyProfile>git rm --cached *.html
+rm 'about.html'
+rm 'content.html'
+rm 'index.html'
+
+C:\CompanyProfile>git rm --cached *.js
+rm 'script.js'
+
+C:\CompanyProfile>git rm --cached *.txt
+rm 'notes.txt'
+
+C:\CompanyProfile>git rm --cached *.css
+rm 'style.css'
+
+C:\CompanyProfile>git add index.html
+
+C:\CompanyProfile>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        about.html
+        app.js
+        content.html
+        main.html
+        notes.txt
+        script.js
+        style.css
+
+
+C:\CompanyProfile>
+
+
+Task 9:
+
+C:\CompanyProfile>git add .
+
+C:\CompanyProfile>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   about.html
+        new file:   app.js
+        new file:   content.html
+        new file:   index.html
+        new file:   main.html
+        new file:   notes.txt
+        new file:   script.js
+        new file:   style.css
+
+C:\CompanyProfile>git rm --cached *.html
+rm 'about.html'
+rm 'content.html'
+rm 'index.html
+rm 'main.html'
+
+C:\CompanyProfile>git rm --cached *.js
+rm 'script.js'
+
+C:\CompanyProfile>git rm --cached *.css
+rm 'style.css'
+
+C:\CompanyProfile>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        about.html
+        app.js
+        content.html
+        main.html
+        notes.txt
+        script.js
+        style.css
+
+C:\CompanyProfile>
+
+
+Task 10:
+
+C:\CompanyProfile>type nul > READ.md
+
+C:\CompanyProfile>git add .
+
+C:\CompanyProfile>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   READ.md
+        new file:   about.html
+        new file:   app.js
+        new file:   content.html
+        new file:   index.html
+        new file:   main.html
+        new file:   notes.txt
+        new file:   script.js
+        new file:   style.css
+
+
+C:\CompanyProfile>echo color > style.css
+
+C:\CompanyProfile>type nul > draft.txt
+
+C:\CompanyProfile>git rm --cached notes.txt
+rm 'notes.txt'
+
+C:\CompanyProfile>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   READ.md
+        new file:   about.html
+        new file:   app.js
+        new file:   content.html
+        new file:   index.html
+        new file:   main.html
+        new file:   script.js
+        new file:   style.css
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   style.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        draft.txt
+        notes.txt
+
+
+C:\CompanyProfile>git status -s
+A  .gitignore
+A  READ.md
+A  about.html
+A  app.js
+A  content.html
+A  index.html
+A  main.html
+A  script.js
+AM style.css
+?? draft.txt
+?? notes.txt
+
+C:\CompanyProfile>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

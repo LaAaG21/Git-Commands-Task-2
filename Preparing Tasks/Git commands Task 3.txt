@@ -1,0 +1,324 @@
+Task 1:
+
+Microsoft Windows [Version 10.0.26200.8246]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Codeline>cd desktop
+
+C:\Users\Codeline\Desktop>mkdir project
+
+C:\Users\Codeline\Desktop>cd project
+
+C:\Users\Codeline\Desktop\project>git init
+Initialized empty Git repository in C:/Users/Codeline/Desktop/project/.git/
+
+C:\Users\Codeline\Desktop\project>git remote add origin https://github.com/LaAaG21/Git-Commands-Task-2.git
+
+C:\Users\Codeline\Desktop\project>git remote-v
+git: 'remote-v' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote-fd
+
+C:\Users\Codeline\Desktop\project>git remote -v
+origin  https://github.com/LaAaG21/Git-Commands-Task-2.git (fetch)
+origin  https://github.com/LaAaG21/Git-Commands-Task-2.git (push)
+
+C:\Users\Codeline\Desktop\project>
+
+
+Task 2:
+
+C:\Users\Codeline\Desktop>mkdir project
+
+C:\Users\Codeline\Desktop>cd project
+
+C:\Users\Codeline\Desktop\project>git init
+Initialized empty Git repository in C:/Users/Codeline/Desktop/project/.git/
+
+C:\Users\Codeline\Desktop\project>git remote https://github.com/LaAaG21/Git-Commands-Task-2.git
+error: unknown subcommand: `https://github.com/LaAaG21/Git-Commands-Task-2.git'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --[no-]verbose    be verbose; must be placed before a subcommand
+
+
+C:\Users\Codeline\Desktop\project>git remote -v
+
+C:\Users\Codeline\Desktop\project>git remote add origin https://github.com/LaAaG21/Git-Commands-Task-2.git
+
+C:\Users\Codeline\Desktop\project>git remote -v
+origin  https://github.com/LaAaG21/Git-Commands-Task-2.git (fetch)
+origin  https://github.com/LaAaG21/Git-Commands-Task-2.git (push)
+
+C:\Users\Codeline\Desktop\project>git pull origin main
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 10 (delta 2), reused 6 (delta 1), pack-reused 0 (from 0)
+Unpacking objects: 100% (10/10), 1.47 KiB | 51.00 KiB/s, done.
+From https://github.com/LaAaG21/Git-Commands-Task-2
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+
+C:\Users\Codeline\Desktop\project>dir
+ Volume in drive C is Windows
+ Volume Serial Number is AA7D-8A41
+
+ Directory of C:\Users\Codeline\Desktop\project
+
+04/21/2026  10:25 AM    <DIR>          .
+04/21/2026  10:21 AM    <DIR>          ..
+04/21/2026  10:25 AM                 0 about.html
+04/21/2026  10:25 AM                 0 contact.html
+04/21/2026  10:25 AM                21 README.md
+04/21/2026  10:25 AM                 0 services.html
+               4 File(s)             21 bytes
+               2 Dir(s)  434,087,366,656 bytes free
+
+C:\Users\Codeline\Desktop\project>del about.html
+
+C:\Users\Codeline\Desktop\project>dir
+ Volume in drive C is Windows
+ Volume Serial Number is AA7D-8A41
+
+ Directory of C:\Users\Codeline\Desktop\project
+
+04/21/2026  10:27 AM    <DIR>          .
+04/21/2026  10:21 AM    <DIR>          ..
+04/21/2026  10:25 AM                 0 contact.html
+04/21/2026  10:25 AM                21 README.md
+04/21/2026  10:25 AM                 0 services.html
+               3 File(s)             21 bytes
+               2 Dir(s)  434,087,366,656 bytes free
+
+C:\Users\Codeline\Desktop\project>type nul > about.html
+
+C:\Users\Codeline\Desktop\project>git add .
+
+C:\Users\Codeline\Desktop\project>git commit -m "added new file named about.html"
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\Codeline\Desktop\project>echo hello > about.html
+
+C:\Users\Codeline\Desktop\project>git add .
+
+C:\Users\Codeline\Desktop\project>git commit -m "added new file named about.html"
+[main cc56d9d] added new file named about.html
+ 1 file changed, 1 insertion(+)
+
+C:\Users\Codeline\Desktop\project>git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 274 bytes | 274.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/LaAaG21/Git-Commands-Task-2.git
+   feda56b..cc56d9d  main -> main
+
+C:\Users\Codeline\Desktop\project>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\Codeline\Desktop\project>
+
+
+Task 3:
+
+C:\Users\Codeline\Desktop\project>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\Codeline\Desktop\project>dir
+ Volume in drive C is Windows
+ Volume Serial Number is AA7D-8A41
+
+ Directory of C:\Users\Codeline\Desktop\project
+
+04/21/2026  10:28 AM    <DIR>          .
+04/21/2026  10:21 AM    <DIR>          ..
+04/21/2026  10:29 AM                 8 about.html
+04/21/2026  10:25 AM                 0 contact.html
+04/21/2026  10:25 AM                21 README.md
+04/21/2026  10:25 AM                 0 services.html
+               4 File(s)             29 bytes
+               2 Dir(s)  434,087,223,296 bytes free
+
+C:\Users\Codeline\Desktop\project>echo hello > services.html
+
+C:\Users\Codeline\Desktop\project>git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   services.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Codeline\Desktop\project>git add .
+
+C:\Users\Codeline\Desktop\project>git commit -m "modifyed the file services.html"
+[main 07dc570] modifyed the file services.html
+ 1 file changed, 1 insertion(+)
+
+C:\Users\Codeline\Desktop\project>
+
+
+Task 4:
+
+C:\Users\Codeline\Desktop\project>git pull origin main
+From https://github.com/LaAaG21/Git-Commands-Task-2
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+C:\Users\Codeline\Desktop\project>dir
+ Volume in drive C is Windows
+ Volume Serial Number is AA7D-8A41
+
+ Directory of C:\Users\Codeline\Desktop\project
+
+04/21/2026  10:28 AM    <DIR>          .
+04/21/2026  10:21 AM    <DIR>          ..
+04/21/2026  10:29 AM                 8 about.html
+04/21/2026  10:25 AM                 0 contact.html
+04/21/2026  10:25 AM                21 README.md
+04/21/2026  10:39 AM                 8 services.html
+               4 File(s)             37 bytes
+               2 Dir(s)  434,087,223,296 bytes free
+
+C:\Users\Codeline\Desktop\project>echo hi > contact.html
+
+C:\Users\Codeline\Desktop\project>git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   contact.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Codeline\Desktop\project>git add .
+
+C:\Users\Codeline\Desktop\project>git commit -m "modifyed contact.html file"
+[main 3db7c05] modifyed contact.html file
+ 1 file changed, 1 insertion(+)
+
+C:\Users\Codeline\Desktop\project>git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 483 bytes | 483.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/LaAaG21/Git-Commands-Task-2.git
+   cc56d9d..3db7c05  main -> main
+
+C:\Users\Codeline\Desktop\project>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\Codeline\Desktop\project>
+
+
+Task 5:
+
+C:\Users\Codeline\Desktop\project>cd..
+
+C:\Users\Codeline\Desktop>rmdir /s project
+project, Are you sure (Y/N)? y
+
+C:\Users\Codeline\Desktop>mkdir project
+
+C:\Users\Codeline\Desktop>cd project
+
+C:\Users\Codeline\Desktop\project>git init
+Initialized empty Git repository in C:/Users/Codeline/Desktop/project/.git/
+
+C:\Users\Codeline\Desktop\project>git remote add origin https://github.com/EngIshaqalbalushi/Red.git
+
+C:\Users\Codeline\Desktop\project>git remote -v
+origin  https://github.com/EngIshaqalbalushi/Red.git (fetch)
+origin  https://github.com/EngIshaqalbalushi/Red.git (push)
+
+C:\Users\Codeline\Desktop\project>git pull origin master
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 5 (delta 0), reused 5 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (5/5), 457 bytes | 32.00 KiB/s, done.
+From https://github.com/EngIshaqalbalushi/Red
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+C:\Users\Codeline\Desktop\project>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\Codeline\Desktop\project>
+
+
+Task 6:
+
+C:\Users\Codeline\Desktop>cd task6
+
+C:\Users\Codeline\Desktop\task6>git init
+Initialized empty Git repository in C:/Users/Codeline/Desktop/task6/.git/
+
+C:\Users\Codeline\Desktop\task6>git remote add origin https://github.com/EngIshaqalbalushi/landingpage.git
+
+C:\Users\Codeline\Desktop\task6>git remote -v
+origin  https://github.com/EngIshaqalbalushi/landingpage.git (fetch)
+origin  https://github.com/EngIshaqalbalushi/landingpage.git (push)
+
+C:\Users\Codeline\Desktop\task6>git pull origin master
+remote: Enumerating objects: 34, done.
+remote: Counting objects: 100% (34/34), done.
+remote: Compressing objects: 100% (33/33), done.
+remote: Total 34 (delta 0), reused 34 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (34/34), 3.99 MiB | 12.45 MiB/s, done.
+From https://github.com/EngIshaqalbalushi/landingpage
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+C:\Users\Codeline\Desktop\task6>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\Codeline\Desktop\task6>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

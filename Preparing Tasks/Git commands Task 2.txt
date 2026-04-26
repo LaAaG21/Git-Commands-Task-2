@@ -1,0 +1,372 @@
+Task 1:
+
+C:\>mkdir project
+
+C:\>cd project
+
+C:\project>git init
+Initialized empty Git repository in C:/project/.git/
+
+C:\project>git remote -v
+
+C:\project>git remote add origin https://github.com/LaAaG21/Git-Commands-Task-2.git
+
+C:\project>git remote -v
+origin  https://github.com/LaAaG21/Git-Commands-Task-2.git (fetch)
+origin  https://github.com/LaAaG21/Git-Commands-Task-2.git (push)
+
+C:\project>
+
+Task 2:
+
+C:\project>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\project>type nul > about.html
+
+C:\project>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        about.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\project>git add .
+
+C:\project>git commit -m "Adding empty file named about.html"
+[master (root-commit) 817c8d7] Adding empty file named about.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 about.html
+
+C:\project>git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/LaAaG21/Git-Commands-Task-2.git'
+
+C:\project>git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/LaAaG21/Git-Commands-Task-2.git'
+
+C:\project>git remote -v
+origin  https://github.com/LaAaG21/Git-Commands-Task-2.git (fetch)
+origin  https://github.com/LaAaG21/Git-Commands-Task-2.git (push)
+
+C:\project>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\project>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\project>dir
+ Volume in drive C is Windows
+ Volume Serial Number is AA7D-8A41
+
+ Directory of C:\project
+
+04/20/2026  03:41 PM    <DIR>          .
+04/20/2026  03:41 PM                 0 about.html
+               1 File(s)              0 bytes
+               1 Dir(s)  434,286,505,984 bytes free
+
+C:\project>git add .
+
+C:\project>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\project>git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+
+C:\project>git switch main
+fatal: invalid reference: main
+
+C:\project>cd..
+
+C:\>rmdir /s project
+project, Are you sure (Y/N)? y
+
+C:\>mkdir project
+
+C:\>cd project
+
+C:\project>git init
+Initialized empty Git repository in C:/project/.git/
+
+C:\project>git remote add origin https://github.com/LaAaG21/Git-Commands-Task-2.git
+
+C:\project>git remote -v
+origin  https://github.com/LaAaG21/Git-Commands-Task-2.git (fetch)
+origin  https://github.com/LaAaG21/Git-Commands-Task-2.git (push)
+
+C:\project>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\project>git fetch
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 863 bytes | 123.00 KiB/s, done.
+From https://github.com/LaAaG21/Git-Commands-Task-2
+ * [new branch]      main       -> origin/main
+
+C:\project>git switch main
+branch 'main' set up to track 'origin/main'.
+Switched to a new branch 'main'
+
+C:\project>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\project>type nul > about.html
+
+C:\project>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        about.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\project>git add .
+
+C:\project>git commit -m "added empty file named about.html"
+[main 639da0a] added empty file named about.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 about.html
+
+C:\project>git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 288 bytes | 288.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/LaAaG21/Git-Commands-Task-2.git
+   d85527e..639da0a  main -> main
+
+C:\project>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\project>
+
+
+Task 3:
+
+C:\project>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        services.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\project>git add .
+
+C:\project>git commit -m "added empty file named services.html"
+[main 1633ec6] added empty file named services.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 services.html
+
+C:\project>
+
+
+Task 4:
+
+C:\project>git pull origin main
+From https://github.com/LaAaG21/Git-Commands-Task-2
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+C:\project>type nul > contact.html
+
+C:\project>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        contact.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\project>git add .
+
+C:\project>git commit -m "added empty file named contact.html"
+[main feda56b] added empty file named contact.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 contact.html
+
+C:\project>git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 485 bytes | 485.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/LaAaG21/Git-Commands-Task-2.git
+   639da0a..feda56b  main -> main
+
+C:\project>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\project>
+
+
+Task 5:
+
+C:\>mkdir test
+
+C:\>cd test
+
+C:\test>git init
+Initialized empty Git repository in C:/test/.git/
+
+C:\test>git remote add origin https://github.com/EngIshaqalbalushi/Red.git
+
+C:\test>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\test>git fetch
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 5 (delta 0), reused 5 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (5/5), 457 bytes | 32.00 KiB/s, done.
+From https://github.com/EngIshaqalbalushi/Red
+ * [new branch]      master     -> origin/master
+
+C:\test>git switch main
+fatal: invalid reference: main
+
+C:\test>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\test>git pull origin master
+From https://github.com/EngIshaqalbalushi/Red
+ * branch            master     -> FETCH_HEAD
+
+C:\test>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\test>
+
+
+Task 6:
+
+C:\test>git remote add origin https://github.com/EngIshaqalbalushi/landingpage.git
+error: remote origin already exists.
+
+C:\test>cd..
+
+C:\>rmdir /s test
+test, Are you sure (Y/N)? y
+
+C:\>mkdir test
+
+C:\>git init
+Initialized empty Git repository in C:/.git/
+
+C:\>git remote add origin https://github.com/EngIshaqalbalushi/landingpage.git
+fatal: detected dubious ownership in repository at 'C:/'
+'C:/' is owned by:
+        NT SERVICE/TrustedInstaller (S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)
+but the current user is:
+        DESKTOP-11BPM1H/Codeline (S-1-5-21-4119562317-3927581558-2317507306-1001)
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory C:/
+
+C:\>cd..
+
+C:\>cd test
+
+C:\test>git remote add origin https://github.com/EngIshaqalbalushi/landingpage.git
+fatal: detected dubious ownership in repository at 'C:/'
+'C:/' is owned by:
+        NT SERVICE/TrustedInstaller (S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)
+but the current user is:
+        DESKTOP-11BPM1H/Codeline (S-1-5-21-4119562317-3927581558-2317507306-1001)
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory C:/
+
+C:\test>git init
+Initialized empty Git repository in C:/test/.git/
+
+C:\test>git remote add origin https://github.com/EngIshaqalbalushi/landingpage.git
+
+C:\test>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\test>git pull origin master
+remote: Enumerating objects: 34, done.
+remote: Counting objects: 100% (34/34), done.
+remote: Compressing objects: 100% (33/33), done.
+remote: Total 34 (delta 0), reused 34 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (34/34), 3.99 MiB | 16.80 MiB/s, done.
+From https://github.com/EngIshaqalbalushi/landingpage
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+C:\test>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\test>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

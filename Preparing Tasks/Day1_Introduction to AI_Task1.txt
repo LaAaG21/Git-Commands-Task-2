@@ -1,0 +1,283 @@
+Task 1:
+
+My Definition:
+
+1- Ai can read and write anything
+2- Ai can generate images
+3- Ai can summarize pdfs and files
+4- Ai can guide me through new systems
+
+1- Ai can't write/talk perfectly as Omani dialog
+2- Ai can't think as human
+3- Ai can't memorize what we discuss in the chat and get conflict
+4- Ai can't use his Imagination
+
+
+Difference I noticed between ChatGPT and Gemini that is talking in general words but Gemini is talking in details.
+
+
+Top 5 AI use cases for software development:
+- Code Generation & Boilerplate Reduction
+- Debugging & Error Explanation
+- Code Refactoring & Optimization
+- Documentation & Knowledge Sharing
+- Test Generation & QA Support
+
+
+Task 2:
+
+1- Risky / I should replace the APIs with something like API_IS_HERE
+2- Safe  / there is no secure code sharing
+3- Risky / I should never share server IP and domain names
+4- Safe  / there is no secure code sharing
+5- Risky / I should never share Customer data
+6- Risky / Never trust Ai generated code without review
+7- Risky / .env files are high-secure files
+8- Safe  / there is no secure code sharing
+
+
+Task 3:
+
+Prompt 1:
+1- I'm a freelancer developer.
+2- Act as a experienced Manager who want a website for his market.
+3- Write a professional documentation that will be sent to me to start implementing the website that covers everything I need without asking the manager again for clarification.
+4- Three paragraphs with one scenario for each paragraph. scenario for user, Admin, manager
+5- The documentation most be understandable for both me and the manager.
+
+Prompt 2:
+1- I'm a front-end developer working on Tailwind.
+2- Act as experienced front-end programmer in Tailwind.
+3- Review this Tailwind code and suggest improvement for scrolling animation.
+4- Write in fixed points with explanation how to implement it in my code.
+5- Must use latest version of Tailwind.
+
+Prompt 3:
+1- I'm a student at University who does not focus in the class.
+2- Act as Professor At University who explains very well for students who does not focus in the class.
+3- Read and summarize for me this pdf in details for final exam out of 50 Marks.
+4- Explain each point in 10 - 15 words
+5- Use simple words.
+
+
+Prompt 4:
+1- I'm a senior backend developer working on C#.
+2- Act as a senior software architect with 15+ years of C# experience.
+3- Debug this function and explain why the logic is not correct.
+4- One paragraph, under 50 words.
+5- Must be compatible with latest version of C#.
+
+Prompt 5:
+1- I'm the manager at Tech Company.
+2- Act as an professional manager in communicating.
+3- Write a professional email for schedule meeting. 
+4- 3 short paragraphs, formal, under 100 words.
+5- use friendly words
+
+
+Task 4:
+
+
+Scenario B.
+
+1- I'm a backend developer working on payment transactions and security.
+2- Act as a senior software architect with 15+ years in python experience.
+3- Review this function that process payment transaction and insure it is secure and in correct way.
+4- Bullet point list of issues, then show corrected code with comments.
+5- Must be compatible with python 3.9, do not change the function signature.
+
+
+Context: I'm a backend developer working on payment transactions and security. Role: Act as a senior software architect with 15+ years in python experience. Task: Review this function that process payment transaction and insure it is secure and in correct way. Format: Bullet point list of issues, then show corrected code with comments. Constraints: Must be compatible with python 3.9, do not change the function signature.
+
+
+Add more details in each point.
+
+
+Task 5:
+
+ 
+A- Explain step by step how a JWT token is validated on an API. next identify 3 potential security vulnerabilities in a basic implementation. after that provide short summary at the end.
+
+
+B- convert the following code into comment:
+example 1:
+code: function add(a,b)
+comment: adds two numbers
+
+example 2:
+code: function subtract(a,b)
+comment: subtracts two numbers
+
+now convert this code:
+code: function divide(a,b)
+comment:
+
+
+C- Write a function with error handling.
+
+/ Enhance the previse function by adding the logging and error handling.
+// Improve the previse function by implementing the unit test, logging and error handling.
+
+
+Task 6:
+
+Scenario 1.
+
+Context: I'm the product manager.
+Role: Act as an professional manager in communicating.
+Task: Write a professional email for senior management requesting approval for 2-weeks delay in the product launch due to critical QA findings.
+Format: keep it under 200 words.
+Constraints: include a revised timeline.
+
+
+Scenario 2.
+
+Context: I'm a backend developer
+Role: you are experienced backend developer with 10+ years
+Task: Write a professional email to the DevOps team requesting emergency access to production logs and systems to investigate the affecting ~15% of users. The issue appears related to the authentication service causing login failures.
+Format: keep it under 200 words, urgent tone.
+Constraints: Be clear and actionable.
+
+
+Task 7:
+
+Type 1: a Google-style docstring to the following Python function.
+Function:
+<Pasted function here>
+
+
+Type 2: Generate a "Installation & Setup" section for a README file for a Node.js REST API.
+
+include:
+* prerequisite
+* clone
+* install dependencies
+* configure .env
+* run dev server
+
+Type 3: Write a conventional commit message for the following change.
+
+* Added redis caching layer to the/products endpoint.
+* Redcuing average response time from 480ms to 35ms.
+* fixed a null pointer bug when product category is undefined.
+
+
+Task 8:
+
+- Your task is to organize these notes below into a professional meeting summary with sections.
+* Attendees
+* Key decisions
+* Action items (with owner and deadline)
+* blockers
+
+- Your task is to convert the same note above into a 5 slide presentation outline.
+
+Task 9:
+
+- Your task is to summarize the report below in exactly 5 bullet points and keep 15 words as max in each point.
+
+- Your task is to extract all action items as a table with columns:
+* Action | Owner | Deadline | Priority
+
+- Your task is to convert the 'performance metrics' section into a structured JSON object.
+
+- Your task is to identify the risks mentioned in the report and suggest mitigations.
+
+
+Task 10:
+
+SUB-TASK A:
+
+Context: I'm a backend developer working on edge cases, PEP8 and security. 
+Role: Act as a senior software architect with 15+ years in python experience. 
+Task: Review this function and suggest the correct way if it has errors or bugs. 
+Format: Bullet point list of issues, then show corrected code with comments. 
+Constraints: Must be compatible with python 3.9, do not change the function signature.
+
+
+SUB-TASK B:
+
+Context: I'm a backend developer working on edge cases, PEP8 and security. 
+Role: Act as a senior software architect with 15+ years in python experience. 
+Task: The function below has logic bug, debug it and suggest the correct logic. 
+Format: Bullet point list of issues, then show corrected code with comments. 
+Constraints: Must be compatible with python 3.9, do not change the function signature.
+
+
+SUB-TASK C:
+
+Context: I'm a backend developer working on edge cases, PEP8 and security. 
+Role: Act as a senior software architect with 15+ years in python experience. 
+Task: Generate pytest unit tests for the fixed version of the function, 
+covering ( happy path, empty input, null values and boundary conditions. 
+Format: provide only pytest code, then show corrected code with comments. 
+Constraints: Must be compatible with python 3.9, do not change the function signature.
+
+
+* The sub-task was generating pytest unit tests using prompt engineering. I assumed that asking for “unit tests” would be enough.
+
+
+Task 11:
+
+- Template 1:
+
+Context: I am currently working on [Sprint Number].
+Role: Act as a Professional Technical Project Manager.
+Task: Write a concise weekly status email for my manager and stakeholders.
+Format: Use bullet points for readability.
+Constraints: Keep the tone professional and transparent.
+
+- Template 2:
+
+Context: I have just finished a coding task involving [Bug Fix Description]
+Role: Act as a Senior Software Engineer.
+Task: Write a comprehensive PR description that explains "What" changed and "Why" it changed.
+Format: Use Markdown. Include headers for "Summary".
+Constraints: Use clear, declarative language.
+
+- Template 3:
+
+Context: I need to explain the concept of [Technical Debt] to a [Marketing Team].
+Role: Act as a Technical Educator who excels at using analogies.
+Task: Create a simple, 3-paragraph explanation of the concept.
+Format: Paragraph 1: Plain language definition. Paragraph 2: A real-world analogy. Paragraph 3: Why it matters to the business.
+Constraints: No code snippets.
+
+
+
+Task 12:
+
+1- Writing emails	| General	| Cursor
+2- Generating codes	| Dev		| Cursor
+3- Guiding PC system	| General	| Cursor
+4- Guiding installation	| General	| Cursor
+5- Getting new info	| General	| ChatGPT
+6- Reading updates	| General	| ChatGPT
+7- Debug code		| Dev		| Cursor
+8- Implement code	| Dev		| Cursor
+
+- The task I chose: Generating comprehensive Unit Tests for complex functions.
+- AI tool I will use: Cursor (for inline context) and ChatGPT (for edge-case logic).
+- Act as a QA Engineer. Analyze this [CODE] and generate a test suite using [FRAMEWORK] that covers happy paths, edge cases, and potential null/undefined errors. Output in a ready-to-copy format.
+- Estimated time saved: 3 hours per week.
+- Impact on my work: It allows me to maintain high code coverage without the mental fatigue of writing repetitive test cases.
+
+Day 1 — Final Reflection
+* The most useful general AI use case I discovered today: Using AI as a "Universal Translator" for communication—taking technical status updates and instantly reformatting them for different audiences (Product Managers vs. Clients).
+
+* The most useful developer AI use case I will start this week: Automating the creation of Pull Request descriptions and documentation directly from my code changes to ensure better team alignment.
+
+* One thing I now understand about AI that I did not before: That it is a probabilistic engine, not a deterministic one. It’s a powerful "autocomplete" for logic, which means I always need to review the output rather than blindly trusting it.
+
+* One question I still have about using AI in my development workflow: What are the best practices for maintaining data privacy and security when feeding internal error logs or proprietary code snippets into an LLM?
+
+* My commitment: the first AI-assisted task I will do at work tomorrow: I will use my new "PR Gen Template" to document the changes in my current feature branch before submitting it for review.
+
+
+
+
+
+
+
+
+
