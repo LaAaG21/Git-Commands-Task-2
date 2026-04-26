@@ -1,0 +1,13 @@
+Gender, PhoneNum, name, age, DOB, BloodG, PID
+
+name, Speciality, DrID
+
+DID, Dname
+
+Date, Time, AID, Status, Type
+
+Diagnosis, MID, Treatment
+
+PaymentDetails
+
+Type, Name, Price

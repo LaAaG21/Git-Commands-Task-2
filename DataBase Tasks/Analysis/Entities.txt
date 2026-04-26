@@ -1,0 +1,7 @@
+- Patient
+- Doctor
+- Department
+- Appointment
+- Medical Record
+- Billing
+- Service
